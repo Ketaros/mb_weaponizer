@@ -209,214 +209,110 @@
 			<AvailablePiece	id="battania_grip_8" />
 			<AvailablePiece	id="battania_grip_9" />
 			<AvailablePiece	id="wood_grip_2" />
-			<AvailablePiece
-				id="empire_pommel_1" />
-			<AvailablePiece
-				id="empire_pommel_2" />
-			<AvailablePiece
-				id="empire_pommel_3" />
-			<AvailablePiece
-				id="empire_pommel_4" />
-			<AvailablePiece
-				id="empire_pommel_5" />
-			<AvailablePiece
-				id="empire_pommel_6" />
-			<AvailablePiece
-				id="sturgian_pommel_1" />
-			<AvailablePiece
-				id="sturgian_pommel_2" />
-			<AvailablePiece
-				id="sturgian_pommel_3" />
-			<AvailablePiece
-				id="sturgian_pommel_4" />
-			<AvailablePiece
-				id="sturgian_pommel_5" />
-			<AvailablePiece
-				id="sturgian_pommel_6" />
-			<AvailablePiece
-				id="sturgian_pommel_7" />
-			<AvailablePiece
-				id="sturgian_pommel_8" />
-			<AvailablePiece
-				id="sturgian_pommel_9" />
-			<AvailablePiece
-				id="sturgian_pommel_10" />
-			<AvailablePiece
-				id="sturgian_pommel_11" />
-			<AvailablePiece
-				id="sturgian_pommel_12" />
-			<AvailablePiece
-				id="khuzait_pommel_1" />
-			<AvailablePiece
-				id="khuzait_pommel_2" />
-			<AvailablePiece
-				id="khuzait_pommel_3" />
-			<AvailablePiece
-				id="khuzait_pommel_4" />
-			<AvailablePiece
-				id="khuzait_pommel_5" />
-			<AvailablePiece
-				id="khuzait_pommel_6" />
-			<AvailablePiece
-				id="khuzait_pommel_7" />
-			<AvailablePiece
-				id="vlandian_pommel_1" />
-			<AvailablePiece
-				id="vlandian_pommel_2" />
-			<AvailablePiece
-				id="vlandian_pommel_3" />
-			<AvailablePiece
-				id="vlandian_pommel_4" />
-			<AvailablePiece
-				id="vlandian_pommel_5" />
-			<AvailablePiece
-				id="vlandian_pommel_6" />
-			<AvailablePiece
-				id="vlandian_pommel_7" />
-			<AvailablePiece
-				id="vlandian_pommel_8" />
-			<AvailablePiece
-				id="vlandian_pommel_9" />
-			<AvailablePiece
-				id="vlandian_pommel_10" />
-			<AvailablePiece
-				id="cleaver_pommel_1" />
-			<AvailablePiece
-				id="cleaver_pommel_2" />
-			<AvailablePiece
-				id="cleaver_pommel_3" />
-			<AvailablePiece
-				id="cleaver_pommel_4" />
-			<AvailablePiece
-				id="aserai_pommel_1" />
-			<AvailablePiece
-				id="aserai_pommel_2" />
-			<AvailablePiece
-				id="aserai_pommel_3" />
-			<AvailablePiece
-				id="aserai_pommel_4" />
-			<AvailablePiece
-				id="aserai_pommel_5" />
-			<AvailablePiece
-				id="aserai_pommel_6" />
-			<AvailablePiece
-				id="aserai_pommel_8" />
-			<AvailablePiece
-				id="aserai_pommel_9" />
-			<AvailablePiece
-				id="battania_pommel_1" />
-			<AvailablePiece
-				id="battania_pommel_2" />
-			<AvailablePiece
-				id="battania_pommel_3" />
-			<AvailablePiece
-				id="battania_pommel_4" />
-			<AvailablePiece
-				id="battania_pommel_5" />
-			<AvailablePiece
-				id="battania_pommel_6" />
-			<AvailablePiece
-				id="battania_pommel_7" />
-			<AvailablePiece
-				id="battania_pommel_8" />
-			<AvailablePiece
-				id="battania_pommel_9" />
-			<AvailablePiece
-				id="wood_pommel_1" />
-			<AvailablePiece
-				id="mp_vlandian_2hsword_blade" />
-			<AvailablePiece
-				id="mp_vlandian_2hsword_guard" />
-			<AvailablePiece
-				id="mp_vlandian_2hsword_grip" />
-			<AvailablePiece
-				id="mp_vlandian_2hsword_pommel" />
-			<AvailablePiece
-				id="mp_battania_falx_blade" />
-			<AvailablePiece
-				id="mp_battania_falx_guard" />
-			<AvailablePiece
-				id="mp_battania_falx_grip" />
-			<AvailablePiece
-				id="mp_battania_falx_pommel" />
-			<AvailablePiece
-				id="mp_battania_long_falx_blade" />
-			<AvailablePiece
-				id="mp_battania_long_falx_guard" />
-			<AvailablePiece
-				id="mp_battania_long_falx_grip" />
-			<AvailablePiece
-				id="mp_battania_long_falx_pommel" />
-			<AvailablePiece
-				id="mp_battania_polearm_falx_blade" />
-			<AvailablePiece
-				id="mp_battania_polearm_falx_guard" />
-			<AvailablePiece
-				id="mp_battania_polearm_falx_handle" />
-			<AvailablePiece
-				id="mp_battania_polearm_falx_pommel" />
-			<AvailablePiece
-				id="mp_battania_2h_sword_blade" />
-			<AvailablePiece
-				id="mp_battania_2h_sword_guard" />
-			<AvailablePiece
-				id="mp_battania_2h_sword_grip" />
-			<AvailablePiece
-				id="mp_battania_2h_sword_pommel" />
-			<AvailablePiece
-				id="mp_battania_2h_long_sword_blade" />
-			<AvailablePiece
-				id="mp_battania_2h_long_sword_guard" />
-			<AvailablePiece
-				id="mp_battania_2h_long_sword_grip" />
-			<AvailablePiece
-				id="mp_battania_2h_long_sword_pommel" />
-			<AvailablePiece
-				id="mp_aserai_two_handed_sword_blade" />
-			<AvailablePiece
-				id="mp_aserai_two_handed_sword_guard" />
-			<AvailablePiece
-				id="mp_aserai_two_handed_sword_grip" />
-			<AvailablePiece
-				id="mp_empire_pommel_2" />
-			<AvailablePiece
-				id="mp_vlandian_bastard_sword_blade" />
-			<AvailablePiece
-				id="mp_vlandian_bastard_sword_guard" />
-			<AvailablePiece
-				id="mp_vlandian_bastard_sword_handle" />
-			<AvailablePiece
-				id="mp_vlandian_bastard_sword_pommel" />
-			<AvailablePiece
-				id="mp_battania_bastard_sword_blade" />
-			<AvailablePiece
-				id="mp_battania_bastard_sword_guard" />
-			<AvailablePiece
-				id="mp_battania_bastard_sword_grip" />
-			<AvailablePiece
-				id="mp_battania_bastard_sword_pommel" />
-			<AvailablePiece
-				id="mp_vlandian_noble_bastard_sword_blade" />
-			<AvailablePiece
-				id="mp_vlandian_noble_bastard_sword_guard" />
-			<AvailablePiece
-				id="mp_vlandian_noble_bastard_sword_handle" />
-			<AvailablePiece
-				id="mp_vlandian_noble_bastard_sword_pommel" />
-			<AvailablePiece
-				id="mp_vlandian_noble_two_handed_sword_blade" />
-			<AvailablePiece
-				id="mp_vlandian_noble_two_handed_sword_guard" />
-			<AvailablePiece
-				id="mp_vlandian_noble_two_handed_sword_grip" />
-			<AvailablePiece
-				id="mp_vlandian_noble_two_handed_sword_pommel" />
-			<AvailablePiece
-				id="mp_test_2hsword_blade" />
-			<AvailablePiece
-				id="mp_test_2hsword_guard" />
-			<AvailablePiece
-				id="mp_test_2hsword_pommel" />
+			<AvailablePiece	id="empire_pommel_1" />
+			<AvailablePiece	id="empire_pommel_2" />
+			<AvailablePiece	id="empire_pommel_3" />
+			<AvailablePiece	id="empire_pommel_4" />
+			<AvailablePiece	id="empire_pommel_5" />
+			<AvailablePiece	id="empire_pommel_6" />
+			<AvailablePiece	id="sturgian_pommel_1" />
+			<AvailablePiece	id="sturgian_pommel_2" />
+			<AvailablePiece	id="sturgian_pommel_3" />
+			<AvailablePiece	id="sturgian_pommel_4" />
+			<AvailablePiece	id="sturgian_pommel_5" />
+			<AvailablePiece	id="sturgian_pommel_6" />
+			<AvailablePiece	id="sturgian_pommel_7" />
+			<AvailablePiece	id="sturgian_pommel_8" />
+			<AvailablePiece	id="sturgian_pommel_9" />
+			<AvailablePiece	id="sturgian_pommel_10" />
+			<AvailablePiece	id="sturgian_pommel_11" />
+			<AvailablePiece	id="sturgian_pommel_12" />
+			<AvailablePiece	id="khuzait_pommel_1" />
+			<AvailablePiece	id="khuzait_pommel_2" />
+			<AvailablePiece	id="khuzait_pommel_3" />
+			<AvailablePiece	id="khuzait_pommel_4" />
+			<AvailablePiece	id="khuzait_pommel_5" />
+			<AvailablePiece	id="khuzait_pommel_6" />
+			<AvailablePiece	id="khuzait_pommel_7" />
+			<AvailablePiece	id="vlandian_pommel_1" />
+			<AvailablePiece	id="vlandian_pommel_2" />
+			<AvailablePiece	id="vlandian_pommel_3" />
+			<AvailablePiece	id="vlandian_pommel_4" />
+			<AvailablePiece	id="vlandian_pommel_5" />
+			<AvailablePiece	id="vlandian_pommel_6" />
+			<AvailablePiece	id="vlandian_pommel_7" />
+			<AvailablePiece	id="vlandian_pommel_8" />
+			<AvailablePiece	id="vlandian_pommel_9" />
+			<AvailablePiece	id="vlandian_pommel_10" />
+			<AvailablePiece	id="cleaver_pommel_1" />
+			<AvailablePiece	id="cleaver_pommel_2" />
+			<AvailablePiece	id="cleaver_pommel_3" />
+			<AvailablePiece	id="cleaver_pommel_4" />
+			<AvailablePiece	id="aserai_pommel_1" />
+			<AvailablePiece	id="aserai_pommel_2" />
+			<AvailablePiece	id="aserai_pommel_3" />
+			<AvailablePiece	id="aserai_pommel_4" />
+			<AvailablePiece	id="aserai_pommel_5" />
+			<AvailablePiece	id="aserai_pommel_6" />
+			<AvailablePiece	id="aserai_pommel_8" />
+			<AvailablePiece	id="aserai_pommel_9" />
+			<AvailablePiece id="battania_pommel_1" />
+			<AvailablePiece	id="battania_pommel_2" />
+			<AvailablePiece	id="battania_pommel_3" />
+			<AvailablePiece	id="battania_pommel_4" />
+			<AvailablePiece	id="battania_pommel_5" />
+			<AvailablePiece	id="battania_pommel_6" />
+			<AvailablePiece	id="battania_pommel_7" />
+			<AvailablePiece	id="battania_pommel_8" />
+			<AvailablePiece	id="battania_pommel_9" />
+			<AvailablePiece	id="wood_pommel_1" />
+			<AvailablePiece	id="mp_vlandian_2hsword_blade" />
+			<AvailablePiece	id="mp_vlandian_2hsword_guard" />
+			<AvailablePiece	id="mp_vlandian_2hsword_grip" />
+			<AvailablePiece	id="mp_vlandian_2hsword_pommel" />
+			<AvailablePiece	id="mp_battania_falx_blade" />
+			<AvailablePiece	id="mp_battania_falx_guard" />
+			<AvailablePiece	id="mp_battania_falx_grip" />
+			<AvailablePiece	id="mp_battania_falx_pommel" />
+			<AvailablePiece	id="mp_battania_long_falx_blade" />
+			<AvailablePiece	id="mp_battania_long_falx_guard" />
+			<AvailablePiece	id="mp_battania_long_falx_grip" />
+			<AvailablePiece	id="mp_battania_long_falx_pommel" />
+			<AvailablePiece	id="mp_battania_polearm_falx_blade" />
+			<AvailablePiece	id="mp_battania_polearm_falx_guard" />
+			<AvailablePiece	id="mp_battania_polearm_falx_handle" />
+			<AvailablePiece	id="mp_battania_polearm_falx_pommel" />
+			<AvailablePiece	id="mp_battania_2h_sword_blade" />
+			<AvailablePiece	id="mp_battania_2h_sword_guard" />
+			<AvailablePiece	id="mp_battania_2h_sword_grip" />
+			<AvailablePiece	id="mp_battania_2h_sword_pommel" />
+			<AvailablePiece	id="mp_battania_2h_long_sword_blade" />
+			<AvailablePiece	id="mp_battania_2h_long_sword_guard" />
+			<AvailablePiece	id="mp_battania_2h_long_sword_grip" />
+			<AvailablePiece	id="mp_battania_2h_long_sword_pommel" />
+			<AvailablePiece	id="mp_aserai_two_handed_sword_blade" />
+			<AvailablePiece id="mp_aserai_two_handed_sword_guard" />
+			<AvailablePiece	id="mp_aserai_two_handed_sword_grip" />
+			<AvailablePiece	id="mp_empire_pommel_2" />
+			<AvailablePiece	id="mp_vlandian_bastard_sword_blade" />
+			<AvailablePiece	id="mp_vlandian_bastard_sword_guard" />
+			<AvailablePiece	id="mp_vlandian_bastard_sword_handle" />
+			<AvailablePiece	id="mp_vlandian_bastard_sword_pommel" />
+			<AvailablePiece	id="mp_battania_bastard_sword_blade" />
+			<AvailablePiece	id="mp_battania_bastard_sword_guard" />
+			<AvailablePiece	id="mp_battania_bastard_sword_grip" />
+			<AvailablePiece	id="mp_battania_bastard_sword_pommel" />
+			<AvailablePiece	id="mp_vlandian_noble_bastard_sword_blade" />
+			<AvailablePiece	id="mp_vlandian_noble_bastard_sword_guard" />
+			<AvailablePiece	id="mp_vlandian_noble_bastard_sword_handle" />
+			<AvailablePiece	id="mp_vlandian_noble_bastard_sword_pommel" />
+			<AvailablePiece	id="mp_vlandian_noble_two_handed_sword_blade" />
+			<AvailablePiece	id="mp_vlandian_noble_two_handed_sword_guard" />
+			<AvailablePiece	id="mp_vlandian_noble_two_handed_sword_grip" />
+			<AvailablePiece	id="mp_vlandian_noble_two_handed_sword_pommel" />
+			<AvailablePiece	id="mp_test_2hsword_blade" />
+			<AvailablePiece	id="mp_test_2hsword_guard" />
+			<AvailablePiece	id="mp_test_2hsword_pommel" />
 			<!-- AvailablePieces,TwoHandedSword -->
 		</AvailablePieces>
 	</WeaponDescription>
