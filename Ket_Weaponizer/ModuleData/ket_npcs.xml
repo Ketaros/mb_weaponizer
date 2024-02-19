@@ -1,0 +1,1389 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<NPCCharacters>
+	<NPCCharacter
+		id="ket_ruffian"
+		default_group="Infantry"
+		name="{=KETu0001}Ruffian"
+		level="6"
+		occupation="Bandit"
+
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.0124"
+				build="0.01"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="70.19"
+				weight="0.99"
+				build="0.99"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+			<!--hair_tags>
+        <hair_tag name="Native Braids" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags-->
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="40" />
+			<skill
+				id="Bow"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="30" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.imperial_infantryman" />
+			<upgrade_target	
+				id="NPCCharacter.ket_ruffian_mounted" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v1" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.ruffian_sword_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.vlandia_bandit_a" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughcloth_shortcoat" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.scoundrel_sword_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.vlandia_bandit_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.vlandia_bandit_cape_b" />
+			</EquipmentRoster>
+	</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ket_ruffian_mounted"
+		default_group="Cavalry"
+		name="{=KETu0001}Mounted Ruffian"
+		level="14"
+		upgrade_requires="ItemCategory.horse"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="22.19"
+				weight="0.0124"
+				build="0.01"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="70.19"
+				weight="0.99"
+				build="0.99"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+			<!--hair_tags>
+        <hair_tag name="Native Braids" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags-->
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="40" />
+			<skill
+				id="Bow"
+				value="30" />
+			<skill
+				id="OneHanded"
+				value="40" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Riding"
+				value="40" />
+			<skill
+				id="Throwing"
+				value="50" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.peasant_2haxe_1_t1" />
+				<equipment
+					slot="Item2"
+					id="Item.throwing_stone" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v1" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.ruffian_sword_t1" />
+				<equipment
+					slot="Body"
+					id="Item.vlandia_bandit_a" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughcloth_shortcoat" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.scoundrel_sword_t1" />
+				<equipment
+					slot="Body"
+					id="Item.vlandia_bandit_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.vlandia_bandit_cape_b" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.scoundrel_sword_t1" />
+				<equipment
+					slot="Item1"
+					id="Item.western_riders_kite_shield" />
+				<equipment
+					slot="Body"
+					id="Item.vlandia_bandit_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.vlandia_bandit_cape_b" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+	</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="ket_pillager"
+		default_group="Infantry"
+		name="{=KETu0002}Pillager"
+		level="8"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="32.19"
+				weight="0.5"
+				build="0.5"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="60.19"
+				weight="1.0"
+				build="1.1"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+			<!--hair_tags>
+        <hair_tag name="Native Braids" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags-->
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="20" />
+			<skill
+				id="TwoHanded"
+				value="90" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Athletics"
+				value="40" />
+			<skill
+				id="Bow"
+				value="30" />
+			<skill
+				id="Riding"
+				value="10" />
+			<skill
+				id="Throwing"
+				value="20" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.imperial_infantryman" />
+			<upgrade_target
+				id="NPCCharacter.ket_pillager_mounted" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.empire_2hspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v1" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.empire_2hspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughcloth_shortcoat" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.empire_2hflatspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_a" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.vlandia_bandit_cape_b" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.sturgian_2hsword_ket" />
+				<equipment
+					slot="Body"
+					id="Item.baggy_trunks" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+			</EquipmentRoster>
+	</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="ket_pillager_mounted"
+		default_group="Cavalry"
+		name="{=KETu0002}Mounted Pillager"
+		level="14"
+		occupation="Bandit"
+		culture="Culture.looters">
+		<face>
+			<BodyProperties
+				version="4"
+				age="32.19"
+				weight="0.5"
+				build="0.5"
+				key="0000000000000000111111111111111000001100000100000001000000100000000106030000000000000000000000000000000000000000000000001C040002" />
+			<BodyPropertiesMax
+				version="4"
+				age="60.19"
+				weight="1.0"
+				build="1.1"
+				key="0020FC0FDEFC3A5CFFEEEFFFEEFEFFFEFFFFFFFFEFEFFFFFFEEFFFEFFFFFEFFE00FEE6030FFFEFEE000000000000000000000000000000000000000067FC9145" />
+			<!--hair_tags>
+        <hair_tag name="Native Braids" />
+      </hair_tags>
+      <beard_tags>
+        <beard_tag name="Cleanshaven" />
+      </beard_tags-->
+		</face>
+		<skills>
+			<skill
+				id="OneHanded"
+				value="20" />
+			<skill
+				id="TwoHanded"
+				value="90" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Athletics"
+				value="40" />
+			<skill
+				id="Bow"
+				value="30" />
+			<skill
+				id="Riding"
+				value="50" />
+			<skill
+				id="Throwing"
+				value="20" />
+		</skills>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.empire_2hspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_envelope_dress_v1" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.empire_2hspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_b" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughcloth_shortcoat" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.empire_2hflatspatha_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_a" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.vlandia_bandit_cape_b" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item3"
+					id="Item.sturgian_2hsword_ket" />
+				<equipment
+					slot="Body"
+					id="Item.baggy_trunks" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Horse"
+					id="Item.sumpter_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+	</Equipments>
+	</NPCCharacter>
+
+	<NPCCharacter
+		id="ket_scavenger"
+		default_group="Infantry"
+		name="{=KETu0003}Scavenger"
+		level="12"
+		occupation="Bandit"
+		culture="Culture.desert_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_aserai" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="30" />
+			<skill
+				id="Bow"
+				value="20" />
+			<skill
+				id="OneHanded"
+				value="30" />
+			<skill
+				id="Polearm"
+				value="40" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="0" />
+			<skill
+				id="TwoHanded"
+				value="90" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.desert_bandits_raider" />
+			<upgrade_target
+				id="NPCCharacter.aserai_skirmisher" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_1_t2" />
+				<equipment
+					slot="Item0"
+					id="Item.aserai_mace_1_t2" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.turban" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2hkaskara_ket" />
+				<equipment
+					slot="Body"
+					id="Item.aserai_civil_f" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.tuareg" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2hflyssa_ket" />
+				<equipment
+					slot="Body"
+					id="Item.layered_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Head"
+					id="Item.turban" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.aserai_2hscimitar_ket" />
+				<equipment
+					slot="Body"
+					id="Item.desert_robe" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Head"
+					id="Item.turban" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ket_corsair"
+		default_group="Infantry"
+		name="{=KETu0004}Corsair"
+		level="16"
+		occupation="Bandit"
+		culture="Culture.sea_raiders">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_sturgia" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="80" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="80" />
+			<skill
+				id="Polearm"
+				value="60" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="60" />
+			<skill
+				id="TwoHanded"
+				value="40" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.sea_raiders_chief" />
+			<upgrade_target
+				id="NPCCharacter.varyag_veteran" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.short_sword_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hironsaber_ket" />
+				<equipment
+					slot="Item1"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Head"
+					id="Item.lendman_helmet_over_mail" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hfulleredsword_ket" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hfulleredsword_ket" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Head"
+					id="Item.nasalhelm_over_leather" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Body"
+					id="Item.nordic_padded_cloth" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hironsaber_ket" />
+				<equipment
+					slot="Item1"
+					id="Item.northern_spear_2_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Head"
+					id="Item.lendman_helmet_over_mail" />
+				<equipment
+					slot="Body"
+					id="Item.decorated_nordic_hauberk" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hironsaber_ket" />
+				<equipment
+					slot="Item2"
+					id="Item.northern_round_shield" />
+				<equipment
+					slot="Item3"
+					id="Item.generic_javelin_1_t3" />
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Body"
+					id="Item.northern_leather_vest" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Leg"
+					id="Item.leather_shoes" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ket_renegade"
+		default_group="Infantry"
+		name="{=ZKdiaaFo}Renegade"
+		level="16"
+		occupation="Bandit"
+		culture="Culture.mountain_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_battania" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="60" />
+			<skill
+				id="Bow"
+				value="40" />
+			<skill
+				id="OneHanded"
+				value="40" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+			<skill
+				id="Polearm"
+				value="70" />
+			<skill
+				id="Riding"
+				value="20" />
+			<skill
+				id="Throwing"
+				value="70" />
+			<skill
+				id="TwoHanded"
+				value="60" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.vlandian_billman" />
+			<upgrade_target
+				id="NPCCharacter.mountain_bandits_chief" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.western_spear_4_t3" />
+				<equipment
+					slot="Item1"
+					id="Item.old_kite_shield" />
+				<equipment
+					slot="Item2"
+					id="Item.vlandia_axe_1_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.wrapped_headcloth" />
+				<equipment
+					slot="Body"
+					id="Item.patched_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.empire_2hwarsword_ket" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_4_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.wrapped_headcloth" />
+				<equipment
+					slot="Body"
+					id="Item.fur_coat_over_tunic" />
+				<equipment
+					slot="Leg"
+					id="Item.rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.empire_2hwarsword_ket" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_4_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.nordic_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.patched_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.buttoned_leather_bracers" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_sentinelbroadsword_ket" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_4_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Head"
+					id="Item.northern_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.battania_sentinelbroadsword_ket" />
+				<equipment
+					slot="Item2"
+					id="Item.western_spear_4_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.western_javelin_2_t3" />
+				<equipment
+					slot="Body"
+					id="Item.long_fur_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_boots" />
+				<equipment
+					slot="Head"
+					id="Item.roughhide_cap" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ket_ransacker"
+		default_group="Infantry"
+		name="{=freebootertroop}Ransacker"
+		level="16"
+		occupation="Bandit"
+		culture="Culture.forest_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_vlandia" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="50" />
+			<skill
+				id="Bow"
+				value="70" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="Polearm"
+				value="30" />
+			<skill
+				id="Riding"
+				value="0" />
+			<skill
+				id="Throwing"
+				value="40" />
+			<skill
+				id="TwoHanded"
+				value="70" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.forest_bandits_chief" />
+			<upgrade_target
+				id="NPCCharacter.battanian_falxman" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item0"
+					id="Item.highland_ranger_bow" />
+				<equipment
+					slot="Item1"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Item2"
+					id="Item.narrow_sword_t3" />
+				<equipment
+					slot="Item3"
+					id="Item.barbed_arrows" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_a" />
+				<equipment
+					slot="Leg"
+					id="Item.rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Head"
+					id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hfalchion_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_gambeson" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hfalchion_ket" />
+				<equipment
+					slot="Body"
+					id="Item.padded_leather_overcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Head"
+					id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hnarrowblade_ket" />
+				<equipment
+					slot="Body"
+					id="Item.bandit_fur_a" />
+				<equipment
+					slot="Leg"
+					id="Item.rough_tied_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Head"
+					id="Item.battania_civil_hood" />
+				<equipment
+					slot="Cape"
+					id="Item.battania_civil_cloak" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hnarrowblade_ket" />
+				<equipment
+					slot="Body"
+					id="Item.rough_fur_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.highland_leg_wrappings" />
+				<equipment
+					slot="Gloves"
+					id="Item.guarded_armwraps" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hsword_ket" />
+				<equipment
+					slot="Body"
+					id="Item.rough_fur_armor" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Head"
+					id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.vlandian_2hsword_ket" />
+				<equipment
+					slot="Body"
+					id="Item.battania_woodland_outfit" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />
+				<equipment
+					slot="Head"
+					id="Item.pilgrim_hood" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.empire_2htournament_ket" />
+				<equipment
+					slot="Body"
+					id="Item.padded_leather_overcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_shoes" />
+				<equipment
+					slot="Gloves"
+					id="Item.rough_tied_bracers" />
+				<equipment
+					slot="Head"
+					id="Item.wrapped_headcloth" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item0"
+					id="Item.empire_2htournament_ket" />
+				<equipment
+					slot="Body"
+					id="Item.padded_leather_overcoat" />
+				<equipment
+					slot="Leg"
+					id="Item.ragged_boots" />
+				<equipment
+					slot="Gloves"
+					id="Item.eastern_wrapped_armguards" />
+				<equipment
+					slot="Cape"
+					id="Item.scarf" />				
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+	<NPCCharacter
+		id="ket_steppe_plunderer"
+		default_group="Cavalry"
+		name="{=Awc23bFS}Plunderer"
+		level="16"
+		occupation="Bandit"
+		culture="Culture.steppe_bandits">
+		<face>
+			<face_key_template
+				value="BodyProperty.villager_khuzait" />
+		</face>
+		<skills>
+			<skill
+				id="Athletics"
+				value="40" />
+			<skill
+				id="Bow"
+				value="80" />
+			<skill
+				id="OneHanded"
+				value="70" />
+			<skill
+				id="Polearm"
+				value="80" />
+			<skill
+				id="Riding"
+				value="100" />
+			<skill
+				id="Throwing"
+				value="40" />
+			<skill
+				id="TwoHanded"
+				value="740" />
+		</skills>
+		<upgrade_targets>
+			<upgrade_target
+				id="NPCCharacter.steppe_bandits_chief" />
+			<upgrade_target
+				id="NPCCharacter.khuzait_lancer" />
+		</upgrade_targets>
+		<Equipments>
+			<EquipmentRoster
+				civilian="true">
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.broad_ild_sword_t3" />
+				<equipment
+					slot="Item2"
+					id="Item.steppe_heavy_bow" />
+				<equipment
+					slot="Item3"
+					id="Item.default_arrows" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+				<equipment
+					slot="Body"
+					id="Item.studded_steppe_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hheavysaber_ket" />
+				<equipment
+					slot="Head"
+					id="Item.nomad_padded_hood" />
+				<equipment
+					slot="Body"
+					id="Item.studded_steppe_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hheavysaber_ket" />
+				<equipment
+					slot="Body"
+					id="Item.studded_steppe_leather" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hheavysaber_ket" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_leather_stitched" />
+				<equipment
+					slot="Leg"
+					id="Item.strapped_leather_boots" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hsaber_ket" />
+				<equipment
+					slot="Head"
+					id="Item.upturned_fur_cap" />
+				<equipment
+					slot="Body"
+					id="Item.eastern_stitched_leather_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hsaber_ket" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Body"
+					id="Item.eastern_stitched_leather_coat" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+			<EquipmentRoster>
+				<equipment
+					slot="Item1"
+					id="Item.eastern_spear_3_t3" />
+				<equipment
+					slot="Item0"
+					id="Item.khuzait_2hsaber_ket" />
+				<equipment
+					slot="Head"
+					id="Item.fur_hat" />
+				<equipment
+					slot="Body"
+					id="Item.khuzait_leather_stitched" />
+				<equipment
+					slot="Leg"
+					id="Item.wrapped_shoes" />
+				<equipment
+					slot="Horse"
+					id="Item.khuzait_horse" />
+				<equipment
+					slot="HorseHarness"
+					id="Item.light_harness" />
+			</EquipmentRoster>
+		</Equipments>
+	</NPCCharacter>
+
+</NPCCharacters>

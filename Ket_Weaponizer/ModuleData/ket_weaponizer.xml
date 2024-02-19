@@ -1,0 +1,592 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Items>
+
+<!-- ############### 1-HANDED SWORDS #################### -->
+
+	<CraftedItem id="ruffian_sword_t1" name="{=KETw1h01}Ruffian Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="khuzait_noble_blade_7" Type="Blade" scale_factor="100" />
+			<Piece id="khuzait_guard_6" Type="Guard" scale_factor="100" />
+			<Piece id="sturgian_grip_13" Type="Handle" scale_factor="100" />
+			<Piece id="wood_pommel_1" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="scoundrel_sword_t1" name="{=KETw1h02}Scoundrel Sword" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="battania_blade_3_crude_iron" Type="Blade" scale_factor="100" />
+			<Piece id="sturgian_guard_6" Type="Guard" scale_factor="100" />
+			<Piece id="sturgian_grip_12" Type="Handle" scale_factor="100" />
+			<Piece id="khuzait_pommel_3" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+
+<!-- ############### 2-HANDED SWORDS #################### -->
+
+	<CraftedItem id="empire_2hspatha_ket" name="{KETw2h01}Two-Handed Spatha" crafting_template="TwoHandedSword"	modifier_group="sword">
+		<Pieces>
+			<Piece id="empire_blade_2" Type="Blade" scale_factor="110" />
+			<Piece id="empire_guard_2" Type="Guard"	scale_factor="100" />
+			<Piece id="empire_grip_7"  Type="Handle"  scale_factor="100" />
+			<Piece id="cleaver_pommel_1" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem id="empire_2hflatspatha_ket" name="{KETw2h06}Two-Handed Flat Spatha" crafting_template="TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="empire_blade_4" Type="Blade" scale_factor="110" />
+			<Piece id="empire_guard_4" Type="Guard"	scale_factor="100" />
+			<Piece id="empire_grip_9" Type="Handle"	scale_factor="100" />
+			<Piece id="cleaver_pommel_4" Type="Pommel" scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="sturgian_2hsword_ket"
+		name="{KETw2h02}Barbarian Two-Handed Sword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.sturgian"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="sturgian_blade_1"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="sturgian_guard_1"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="sturgian_grip_32"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="sturgian_pommel_3"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>	
+	<CraftedItem
+		id="aserai_2hkaskara_ket"
+		name="{KETw2h03}AseraI Two-Handed Kaskara"
+		crafting_template="TwoHandedSword"
+		culture="Culture.aserai"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="aserai_blade_9"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece
+				id="aserai_guard_1"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="aserai_grip_23"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="aserai_pommel_2"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="aserai_2hflyssa_ket"
+		name="{KETw2h04}Aserai Two-Handed Flyssa"
+		crafting_template="TwoHandedSword"
+		culture="Culture.aserai"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="aserai_blade_4"
+				Type="Blade"
+				scale_factor="100" />
+			<Piece
+				id="aserai_guard_7"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="aserai_grip_11"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="aserai_pommel_1"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="aserai_2hscimitar_ket"
+		name="{KETw2h05}Aserai Two-Handed Scimitar"
+		crafting_template="TwoHandedSword"
+		culture="Culture.aserai"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="aserai_blade_3"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="aserai_guard_5"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="aserai_grip_10"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="aserai_pommel_6"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="khuzait_2hironsaber_ket"
+		name="{KETw2h07}Two-Handed Iron Saber"
+		crafting_template="TwoHandedSword"
+		culture="Culture.khuzait"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="khuzait_blade_9"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="khuzait_guard_5"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="cleaver_grip_10"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="khuzait_pommel_3"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="vlandian_2hfulleredsword_ket"
+		name="{KETw2h08}Two-Handed Sailor Sword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.vlandia"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="vlandian_blade_1"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="vlandian_guard_2"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_grip_13"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_pommel_5"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="empire_2hwarsword_ket"
+		name="{KETw2h09}Two-Handed Warsword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.empire"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="empire_blade_3"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="empire_guard_3"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="empire_grip_13"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="empire_pommel_1"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="battania_sentinelbroadsword_ket"
+		name="{KETw2h10}Sentinel Broadsword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.battania"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="battania_blade_3_iron"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="battania_guard_7"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="battania_grip_6"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="battania_pommel_6"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="vlandian_2hfalchion_ket"
+		name="{KETw2h11}Vlandian Two-Handed Falchion"
+		crafting_template="TwoHandedSword"
+		culture="Culture.vlandia"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="vlandian_blade_9"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="vlandian_guard_7"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_grip_10"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="battania_pommel_2"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="vlandian_2hnarrowblade_ket"
+		name="{KETw2h12}Vlandian Two-Handed Narrow Sword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.vlandia"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="vlandian_blade_6"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="vlandian_guard_1"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="sturgian_grip_15"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_pommel_1"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="vlandian_2hsword_ket"
+		name="{KETw2h13}Vlandian Two-Handed Sword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.vlandia"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="vlandian_blade_14"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="vlandian_guard_6"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_grip_15"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="vlandian_pommel_10"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="empire_2htournament_ket"
+		name="{KETw1h14}Tournament Two-Handed Sword"
+		crafting_template="TwoHandedSword"
+		culture="Culture.empire"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="empire_blade_3_blunt"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="empire_guard_6"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="empire_grip_15"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="empire_pommel_2"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="khuzait_2hsaber_ket"
+		name="{KETw2h15}Khuzait Two-Handed Saber"
+		crafting_template="TwoHandedSword"
+		culture="Culture.khuzait"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="khuzait_blade_6"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="khuzait_guard_1"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="khuzait_grip_16"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="khuzait_pommel_1"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem
+		id="khuzait_2hheavysaber_ket"
+		name="{KETw2h16}Khuzait Two-Handed Heavy Saber"
+		crafting_template="TwoHandedSword"
+		culture="Culture.khuzait"
+		modifier_group="sword">
+		<Pieces>
+			<Piece
+				id="khuzait_blade_7"
+				Type="Blade"
+				scale_factor="110" />
+			<Piece
+				id="khuzait_guard_2"
+				Type="Guard"
+				scale_factor="100" />
+			<Piece
+				id="khuzait_grip_9"
+				Type="Handle"
+				scale_factor="100" />
+			<Piece
+				id="khuzait_pommel_2"
+				Type="Pommel"
+				scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	
+<!-- ############### PRIZES - TWO-HANDED SWORDS #################### -->
+
+	<!-- ### CULTURE BASED ### -->
+	<CraftedItem id="onyx_anihilator_2hsword" 	name="Onyx Anihilator" 	crafting_template="TwoHandedSword" culture="Culture.battania"	modifier_group="sword" is_merchandise="false">
+		<Pieces>
+			<Piece id="empire_blade_5" 		Type="Blade" 	scale_factor="110"/>
+			<Piece id="battania_guard_3" 	Type="Guard"	scale_factor="90"/>
+			<Piece id="aserai_grip_15"		Type="Handle"	scale_factor="90"/>
+			<Piece id="battania_pommel_4"	Type="Pommel"	scale_factor="96"/>
+		</Pieces>
+		<!-- Length: 114 Weight: 1.51 -->
+	</CraftedItem>
+	<CraftedItem id="ebony_eclipse_2hsword" 	name="Ebony Eclipse" 	crafting_template="TwoHandedSword" culture="Culture.vlandia" 	modifier_group="sword" is_merchandise="false">
+		<Pieces>
+			<Piece id="battania_blade_1" 	Type="Blade" scale_factor="110"/>
+			<Piece id="vlandian_guard_3" 	Type="Guard"/>
+			<Piece id="vlandian_grip_7"	 	Type="Handle"/>
+			<Piece id="aserai_pommel_6"	 	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 119 Weight: 1.68 -->
+	</CraftedItem>
+
+<!-- ############### PRIZES - TWO-HANDED AXES #################### -->
+	<CraftedItem id="calradic_reaper_2haxe" 	name="Calradic Reaper" 			crafting_template="TwoHandedAxe" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_16_head" 		Type="Blade"/>
+			<Piece id="axe_craft_10_handle"		Type="Handle"/>
+			<Piece id="default_polearm_pommel"  Type="Pommel"/>
+		</Pieces>
+<!-- Length: 115 Weight: 1.88 -->
+	</CraftedItem>	
+	<CraftedItem id="rhodok_ravager_2haxe" 		name="Rhodok Ravager" 			crafting_template="TwoHandedAxe" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_38_head" 	Type="Blade" 	scale_factor="110"/>
+			<Piece id="axe_craft_1_handle"	Type="Handle"	scale_factor="94"/>
+			<Piece id="spear_pommel_12"		Type="Pommel" 	scale_factor="110"/>
+		</Pieces>
+	<!-- Length: 133 Weight: 1.54 -->
+	</CraftedItem>
+	<CraftedItem id="the_midnight_2haxe" 		name="The Midnight" 			crafting_template="TwoHandedAxe" 	is_merchandise="false">
+	<Pieces>
+		<Piece id="axe_craft_38_head"  Type="Blade"/>
+		<Piece id="axe_craft_4_handle" Type="Handle"/>
+		<Piece id="vlandian_pommel_9"  Type="Pommel"/>
+	</Pieces>
+	<!-- Length: 137 Weight: 1.78 -->
+	</CraftedItem>
+	<CraftedItem id="berserkers_bane_2haxe"		name="Berserker's Bane"			crafting_template="TwoHandedAxe" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_6_head"
+						 Type="Blade"/>
+			<Piece id="axe_craft_9_handle"
+						 Type="Handle"/>
+			<Piece id="aserai_pommel_5"
+						 Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 130 Weight: 1.65 -->
+	</CraftedItem>	
+	<CraftedItem id="overlords_axe_2haxe"		name="Overlord's Axe"			crafting_template="TwoHandedAxe" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_7_head"
+						 Type="Blade"
+						 scale_factor="110"/>
+			<Piece id="axe_craft_8_handle"
+						 Type="Handle"/>
+			<Piece id="vlandian_pommel_3"
+						 Type="Pommel"
+						 scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 94 Weight: 1.64 -->
+	</CraftedItem>
+	<!-- ### CULTURE BASED ### -->
+	<CraftedItem id="khuzait_windchaser_2haxe" 	name="Khuzait Windchaser" 		crafting_template="TwoHandedAxe" culture="Culture.khuzait" 	is_merchandise="false">
+	<Pieces>
+		<Piece id="axe_craft_17_head"	 	Type="Blade"/>
+		<Piece id="axe_craft_31_handle"	 	Type="Handle"/>
+		<Piece id="default_polearm_pommel"	Type="Pommel"/>
+	</Pieces>
+	<!-- Length: 104 Weight: 1.65 -->
+</CraftedItem>
+	<CraftedItem id="vlandian_desolator_2haxe" 	name="Vlandian Desolator" 		crafting_template="TwoHandedAxe" culture="Culture.vlandia" 	is_merchandise="false">
+	<Pieces>
+		<Piece id="axe_craft_1_head" Type="Blade"/>
+		<Piece id="axe_craft_9_handle" Type="Handle"/>
+		<Piece id="default_polearm_pommel" Type="Pommel"/>
+	</Pieces>
+	<!-- Length: 116 Weight: 1.15 -->
+	</CraftedItem>
+	<CraftedItem id="winters_edge_2haxe" 		name="Sturgian Winter's Edge" 	crafting_template="TwoHandedAxe" culture="Culture.sturgian"	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_7_head" Type="Blade"/>
+			<Piece id="axe_craft_7_handle" Type="Handle"/>
+			<Piece id="cleaver_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 103 Weight: 1.44 -->
+	</CraftedItem>
+	<CraftedItem id="bloodbath_bane_2haxe" 		name="Battanian Bloodbath Bane" crafting_template="TwoHandedAxe" culture="Culture.battania" is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_34_head"
+						 Type="Blade"/>
+			<Piece id="axe_craft_8_handle"
+						 Type="Handle"/>
+			<Piece id="spear_pommel_4"
+						 Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 86 Weight: 1.5 -->
+	</CraftedItem>
+	<CraftedItem id="mirage_marauder_2haxe" 	name="Aserai Mirage Marauder" 	crafting_template="TwoHandedAxe" culture="Culture.aserai" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="axe_craft_17_head"
+						 Type="Blade"
+						 scale_factor="110"/>
+			<Piece id="axe_craft_6_handle"
+						 Type="Handle"
+						 scale_factor="94"/>
+			<Piece id="spear_pommel_11"
+						 Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 126 Weight: 1.85 -->
+	</CraftedItem>
+
+<!-- ############### PRIZES - TWO-HANDED MACES #################### -->
+	<CraftedItem id="conquerors_maul_2hmace" 	name="Calradic Conqueror's Maul"	crafting_template="TwoHandedMace" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="mace_head_38"
+						 Type="Blade"
+						 scale_factor="110"/>
+			<Piece id="mace_handle_18"
+						 Type="Handle"
+						 scale_factor="110"/>
+			<Piece id="spear_pommel_11"
+						 Type="Pommel"
+						 scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 101 Weight: 2.59 -->
+	</CraftedItem>
+	<CraftedItem id="fury_forger_2hmace" 		name="Fury Forger"					crafting_template="TwoHandedMace" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="mace_head_36"
+						 Type="Blade"/>
+			<Piece id="axe_craft_1_handle"
+						 Type="Handle"/>
+			<Piece id="khuzait_noble_pommel_3"
+						 Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 149 Weight: 1.73 -->
+	</CraftedItem>
+	<CraftedItem id="eclipse_enforcer_2hmace"	name="Eclipse Enforcer"				crafting_template="TwoHandedMace" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="mace_head_33"
+						 Type="Blade"/>
+			<Piece id="axe_craft_1_handle"
+						 Type="Handle"/>
+			<Piece id="battania_pommel_7"
+						 Type="Pommel"
+						 scale_factor="90"/>
+		</Pieces>
+		<!-- Length: 142 Weight: 2.22 -->
+	</CraftedItem>
+	<CraftedItem id="serenity_crusher_2hmace"	name="Serenity Crusher"				crafting_template="TwoHandedMace" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="mace_head_34"
+						 Type="Blade"
+						 scale_factor="110"/>
+			<Piece id="mace_handle_20"
+						 Type="Handle"/>
+			<Piece id="vlandian_pommel_2"
+						 Type="Pommel"
+						 scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 101 Weight: 1.99 -->
+	</CraftedItem>
+	<CraftedItem id="titans_mauler_2hmace"		name="Titan's Mauler"				crafting_template="TwoHandedMace" 	is_merchandise="false">
+	<Pieces>
+	<Piece id="mace_head_35"
+				 Type="Blade"
+				 scale_factor="110"/>
+	<Piece id="mace_handle_20"
+				 Type="Handle"/>
+	<Piece id="empire_noble_pommel_1"
+				 Type="Pommel"/>
+	</Pieces>
+	<!-- Length: 110 Weight: 1.61 -->
+	</CraftedItem>
+	<!-- ### CULTURE BASED ### -->
+	<CraftedItem id="doom_mallet_2hmace"		name="Battanian Doom Mallet"		crafting_template="TwoHandedMace" 	is_merchandise="false">
+		<Pieces>
+			<Piece id="mace_head_39"
+						 Type="Blade"
+						 scale_factor="110"/>
+			<Piece id="axe_craft_1_handle"
+						 Type="Handle"
+						 scale_factor="110"/>
+			<Piece id="khuzait_pommel_5"
+						 Type="Pommel"
+						 scale_factor="110"/>
+		</Pieces>
+		<!-- Length: 158 Weight: 2.21 -->
+	</CraftedItem>
+	
+</Items>
