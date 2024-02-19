@@ -24,6 +24,14 @@
 		    </IncludedGameTypes>
 		</XmlNode>
 		<XmlNode>
+			<XmlName id="ItemModifiers" path="ket_modifiers"/>
+		    <IncludedGameTypes>
+			    <GameType value = "Campaign"/>
+			    <GameType value = "CampaignStoryMode"/>
+			    <GameType value = "CustomGame"/>
+		    </IncludedGameTypes>
+		</XmlNode>
+		<XmlNode>
 			<XmlName id="Items" path="ket_weaponizer"/>
 		    <IncludedGameTypes>
 			    <GameType value = "Campaign"/>
