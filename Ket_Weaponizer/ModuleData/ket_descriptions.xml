@@ -1,278 +1,140 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <WeaponDescriptions>
-	<WeaponDescription
-		id="TwoHandedSword"
-		weapon_class="TwoHandedSword"
-		item_usage_features="twohanded:block:swing:thrust">
+	<WeaponDescription	id="TwoHandedSword"	weapon_class="TwoHandedSword"	item_usage_features="twohanded:block:swing:thrust">
 		<WeaponFlags>
-			<WeaponFlag
-				value="MeleeWeapon" />
-			<WeaponFlag
-				value="NotUsableWithOneHand" />
+			<WeaponFlag	value="MeleeWeapon" />
+			<WeaponFlag	value="NotUsableWithOneHand" />
 		</WeaponFlags>
 		<AvailablePieces>
-<!-- KETAROS ADDED -->
-			<AvailablePiece
-				id="aserai_blade_19" />
-<!-- KETAROS ADDED -->
-		<AvailablePiece
-				id="empire_blade_1" />
-			<AvailablePiece
-				id="empire_blade_2" />
-			<AvailablePiece
-				id="empire_blade_3" />
-			<AvailablePiece
-				id="empire_blade_3_blunt" />
-			<AvailablePiece
-				id="empire_blade_4" />
-			<AvailablePiece
-				id="empire_blade_4_blunt" />
-			<AvailablePiece
-				id="empire_blade_5" />
-			<AvailablePiece
-				id="empire_blade_6" />
-			<AvailablePiece
-				id="empire_blade_7" />
-			<AvailablePiece
-				id="sturgian_blade_1" />
-			<AvailablePiece
-				id="sturgian_blade_2" />
-			<AvailablePiece
-				id="sturgian_blade_3" />
-			<AvailablePiece
-				id="sturgian_blade_4" />
-			<AvailablePiece
-				id="sturgian_blade_5" />
-			<AvailablePiece
-				id="sturgian_blade_6" />
-			<AvailablePiece
-				id="sturgian_blade_7" />
-			<AvailablePiece
-				id="sturgian_blade_8" />
-			<AvailablePiece
-				id="sturgian_blade_9" />
-			<AvailablePiece
-				id="sturgian_blade_10" />
-			<AvailablePiece
-				id="sturgian_blade_11" />
-			<AvailablePiece
-				id="sturgian_blade_12" />
-			<AvailablePiece
-				id="sturgian_blade_13" />
-			<AvailablePiece
-				id="sturgian_blade_14" />
-			<AvailablePiece
-				id="sturgian_blade_15" />
-			<AvailablePiece
-				id="sturgian_blade_16" />
-			<AvailablePiece
-				id="khuzait_blade_1" />
-			<AvailablePiece
-				id="khuzait_blade_2" />
-			<AvailablePiece
-				id="khuzait_blade_3" />
-			<AvailablePiece
-				id="khuzait_blade_5" />
-			<AvailablePiece
-				id="khuzait_blade_6" />
-			<AvailablePiece
-				id="khuzait_blade_7" />
-			<AvailablePiece
-				id="khuzait_blade_8" />
-			<AvailablePiece
-				id="khuzait_blade_9" />
-			<AvailablePiece
-				id="vlandian_blade_1" />
-			<AvailablePiece
-				id="vlandian_blade_2" />
-			<AvailablePiece
-				id="vlandian_blade_3" />
-			<AvailablePiece
-				id="vlandian_blade_3_blunt" />
-			<AvailablePiece
-				id="vlandian_blade_4" />
-			<AvailablePiece
-				id="vlandian_blade_5" />
-			<AvailablePiece
-				id="vlandian_blade_6" />
-			<AvailablePiece
-				id="vlandian_blade_7" />
-			<AvailablePiece
-				id="vlandian_blade_8" />
-			<AvailablePiece
-				id="vlandian_blade_9" />
-			<AvailablePiece
-				id="vlandian_blade_11" />
-			<AvailablePiece
-				id="vlandian_blade_12" />
-			<AvailablePiece
-				id="vlandian_blade_13" />
-			<AvailablePiece
-				id="vlandian_blade_14" />
-			<AvailablePiece
-				id="cleaver_blade_1" />
-			<AvailablePiece
-				id="cleaver_blade_2" />
-			<AvailablePiece
-				id="cleaver_blade_3" />
-			<AvailablePiece
-				id="cleaver_blade_4" />
-			<AvailablePiece
-				id="cleaver_blade_5" />
-			<AvailablePiece
-				id="aserai_blade_1" />
-			<AvailablePiece
-				id="aserai_blade_2" />
-			<AvailablePiece
-				id="aserai_blade_3" />
-			<AvailablePiece
-				id="aserai_blade_4" />
-			<AvailablePiece
-				id="aserai_blade_5" />
-			<AvailablePiece
-				id="aserai_blade_7" />
-			<AvailablePiece
-				id="aserai_blade_8" />
-			<AvailablePiece
-				id="aserai_blade_9" />
-			<AvailablePiece
-				id="aserai_blade_11" />
-			<AvailablePiece
-				id="battania_blade_1" />
-			<AvailablePiece
-				id="battania_blade_3" />
-			<AvailablePiece
-				id="battania_blade_3_blunt" />
-			<AvailablePiece
-				id="battania_blade_3_iron" />
-			<AvailablePiece
-				id="battania_blade_3_iron_blunt" />
-			<AvailablePiece
-				id="battania_blade_4" />
-			<AvailablePiece
-				id="battania_blade_5" />
-			<AvailablePiece
-				id="battania_blade_6" />
-			<AvailablePiece
-				id="wood_blade_1" />
-			<AvailablePiece
-				id="empire_guard_1" />
-			<AvailablePiece
-				id="empire_guard_2" />
-			<AvailablePiece
-				id="empire_guard_3" />
-			<AvailablePiece
-				id="empire_guard_4" />
-			<AvailablePiece
-				id="empire_guard_5" />
-			<AvailablePiece
-				id="empire_guard_6" />
-			<AvailablePiece
-				id="sturgian_guard_1" />
-			<AvailablePiece
-				id="sturgian_guard_2" />
-			<AvailablePiece
-				id="sturgian_guard_3" />
-			<AvailablePiece
-				id="sturgian_guard_4" />
-			<AvailablePiece
-				id="sturgian_guard_5" />
-			<AvailablePiece
-				id="sturgian_guard_6" />
-			<AvailablePiece
-				id="sturgian_guard_7" />
-			<AvailablePiece
-				id="sturgian_guard_8" />
-			<AvailablePiece
-				id="sturgian_guard_9" />
-			<AvailablePiece
-				id="sturgian_guard_10" />
-			<AvailablePiece
-				id="sturgian_guard_11" />
-			<AvailablePiece
-				id="sturgian_guard_12" />
-			<AvailablePiece
-				id="sturgian_noble_guard_1" />
-			<AvailablePiece
-				id="sturgian_noble_guard_2" />
-			<AvailablePiece
-				id="khuzait_guard_1" />
-			<AvailablePiece
-				id="khuzait_guard_2" />
-			<AvailablePiece
-				id="khuzait_guard_3" />
-			<AvailablePiece
-				id="khuzait_guard_4" />
-			<AvailablePiece
-				id="khuzait_guard_5" />
-			<AvailablePiece
-				id="khuzait_guard_6" />
-			<AvailablePiece
-				id="khuzait_guard_7" />
-			<AvailablePiece
-				id="khuzait_guard_8" />
-			<AvailablePiece
-				id="khuzait_guard_9" />
-			<AvailablePiece
-				id="vlandian_guard_1" />
-			<AvailablePiece
-				id="vlandian_guard_2" />
-			<AvailablePiece
-				id="vlandian_guard_3" />
-			<AvailablePiece
-				id="vlandian_guard_4" />
-			<AvailablePiece
-				id="vlandian_guard_5" />
-			<AvailablePiece
-				id="vlandian_guard_6" />
-			<AvailablePiece
-				id="vlandian_guard_7" />
-			<AvailablePiece
-				id="vlandian_guard_8" />
-			<AvailablePiece
-				id="cleaver_guard_1" />
-			<AvailablePiece
-				id="cleaver_guard_2" />
-			<AvailablePiece
-				id="cleaver_guard_3" />
-			<AvailablePiece
-				id="cleaver_guard_4" />
-			<AvailablePiece
-				id="cleaver_guard_5" />
-			<AvailablePiece
-				id="aserai_guard_1" />
-			<AvailablePiece
-				id="aserai_guard_2" />
-			<AvailablePiece
-				id="aserai_guard_3" />
-			<AvailablePiece
-				id="aserai_guard_4" />
-			<AvailablePiece
-				id="aserai_guard_5" />
-			<AvailablePiece
-				id="aserai_guard_6" />
-			<AvailablePiece
-				id="aserai_guard_7" />
-			<AvailablePiece
-				id="aserai_guard_8" />
-			<AvailablePiece
-				id="aserai_guard_9" />
-			<AvailablePiece
-				id="battania_guard_1" />
-			<AvailablePiece
-				id="battania_guard_3" />
-			<AvailablePiece
-				id="battania_guard_5" />
-			<AvailablePiece
-				id="battania_guard_6" />
-			<AvailablePiece
-				id="battania_guard_7" />
-			<AvailablePiece
-				id="battania_guard_8" />
-			<AvailablePiece
-				id="battania_guard_9" />
-			<AvailablePiece
-				id="wood_guard_1" />
+			<AvailablePiece	id="empire_blade_1" />
+			<AvailablePiece	id="empire_blade_2" />
+			<AvailablePiece	id="empire_blade_3" />
+			<AvailablePiece	id="empire_blade_3_blunt" />
+			<AvailablePiece	id="empire_blade_4" />
+			<AvailablePiece	id="empire_blade_4_blunt" />
+			<AvailablePiece	id="empire_blade_5" />
+			<AvailablePiece	id="empire_blade_6" />
+			<AvailablePiece	id="empire_blade_7" />
+			<AvailablePiece	id="sturgian_blade_1" />
+			<AvailablePiece	id="sturgian_blade_2" />
+			<AvailablePiece	id="sturgian_blade_3" />
+			<AvailablePiece	id="sturgian_blade_4" />
+			<AvailablePiece	id="sturgian_blade_5" />
+			<AvailablePiece id="sturgian_blade_6" />
+			<AvailablePiece	id="sturgian_blade_7" />
+			<AvailablePiece	id="sturgian_blade_8" />
+			<AvailablePiece	id="sturgian_blade_9" />
+			<AvailablePiece	id="sturgian_blade_10" />
+			<AvailablePiece	id="sturgian_blade_11" />
+			<AvailablePiece	id="sturgian_blade_12" />
+			<AvailablePiece	id="sturgian_blade_13" />
+			<AvailablePiece	id="sturgian_blade_14" />
+			<AvailablePiece	id="sturgian_blade_15" />
+			<AvailablePiece	id="sturgian_blade_16" />
+			<AvailablePiece	id="khuzait_blade_1" />
+			<AvailablePiece	id="khuzait_blade_2" />
+			<AvailablePiece id="khuzait_blade_3" />
+			<AvailablePiece	id="khuzait_blade_5" />
+			<AvailablePiece id="khuzait_blade_6" />
+			<AvailablePiece	id="khuzait_blade_7" />
+			<AvailablePiece id="khuzait_blade_8" />
+			<AvailablePiece	id="khuzait_blade_9" />
+			<AvailablePiece	id="vlandian_blade_1" />
+			<AvailablePiece	id="vlandian_blade_2" />
+			<AvailablePiece	id="vlandian_blade_3" />
+			<AvailablePiece	id="vlandian_blade_3_blunt" />
+			<AvailablePiece id="vlandian_blade_4" />
+			<AvailablePiece	id="vlandian_blade_5" />
+			<AvailablePiece	id="vlandian_blade_6" />
+			<AvailablePiece id="vlandian_blade_7" />
+			<AvailablePiece	id="vlandian_blade_8" />
+			<AvailablePiece	id="vlandian_blade_9" />
+			<AvailablePiece	id="vlandian_blade_11" />
+			<AvailablePiece	id="vlandian_blade_12" />
+			<AvailablePiece	id="vlandian_blade_13" />
+			<AvailablePiece	id="vlandian_blade_14" />
+			<AvailablePiece	id="cleaver_blade_1" />
+			<AvailablePiece	id="cleaver_blade_2" />
+			<AvailablePiece	id="cleaver_blade_3" />
+			<AvailablePiece	id="cleaver_blade_4" />
+			<AvailablePiece id="cleaver_blade_5" />
+			<AvailablePiece	id="aserai_blade_1" />
+			<AvailablePiece	id="aserai_blade_2" />
+			<AvailablePiece	id="aserai_blade_3" />
+			<AvailablePiece	id="aserai_blade_4" />
+			<AvailablePiece	id="aserai_blade_5" />
+			<AvailablePiece	id="aserai_blade_7" />
+			<AvailablePiece	id="aserai_blade_8" />
+			<AvailablePiece	id="aserai_blade_9" />
+			<AvailablePiece	id="aserai_blade_11" />
+			<AvailablePiece	id="battania_blade_1" />
+			<AvailablePiece	id="battania_blade_3" />
+			<AvailablePiece	id="battania_blade_3_blunt" />
+			<AvailablePiece	id="battania_blade_3_iron" />
+			<AvailablePiece	id="battania_blade_3_iron_blunt" />
+			<AvailablePiece	id="battania_blade_4" />
+			<AvailablePiece	id="battania_blade_5" />
+			<AvailablePiece	id="battania_blade_6" />
+			<AvailablePiece	id="wood_blade_1" />
+			<AvailablePiece	id="empire_guard_1" />
+			<AvailablePiece	id="empire_guard_2" />
+			<AvailablePiece	id="empire_guard_3" />
+			<AvailablePiece	id="empire_guard_4" />
+			<AvailablePiece	id="empire_guard_5" />
+			<AvailablePiece	id="empire_guard_6" />
+			<AvailablePiece	id="sturgian_guard_1" />
+			<AvailablePiece	id="sturgian_guard_2" />
+			<AvailablePiece	id="sturgian_guard_3" />
+			<AvailablePiece	id="sturgian_guard_4" />
+			<AvailablePiece	id="sturgian_guard_5" />
+			<AvailablePiece	id="sturgian_guard_6" />
+			<AvailablePiece	id="sturgian_guard_7" />
+			<AvailablePiece	id="sturgian_guard_8" />
+			<AvailablePiece	id="sturgian_guard_9" />
+			<AvailablePiece	id="sturgian_guard_10" />
+			<AvailablePiece	id="sturgian_guard_11" />
+			<AvailablePiece	id="sturgian_guard_12" />
+			<AvailablePiece	id="sturgian_noble_guard_1" />
+			<AvailablePiece	id="sturgian_noble_guard_2" />
+			<AvailablePiece	id="khuzait_guard_1" />
+			<AvailablePiece	id="khuzait_guard_2" />
+			<AvailablePiece	id="khuzait_guard_3" />
+			<AvailablePiece	id="khuzait_guard_4" />
+			<AvailablePiece	id="khuzait_guard_5" />
+			<AvailablePiece	id="khuzait_guard_6" />
+			<AvailablePiece	id="khuzait_guard_7" />
+			<AvailablePiece	id="khuzait_guard_8" />
+			<AvailablePiece	id="khuzait_guard_9" />
+			<AvailablePiece	id="vlandian_guard_1" />
+			<AvailablePiece	id="vlandian_guard_2" />
+			<AvailablePiece	id="vlandian_guard_3" />
+			<AvailablePiece	id="vlandian_guard_4" />
+			<AvailablePiece	id="vlandian_guard_5" />
+			<AvailablePiece	id="vlandian_guard_6" />
+			<AvailablePiece	id="vlandian_guard_7" />
+			<AvailablePiece	id="vlandian_guard_8" />
+			<AvailablePiece	id="cleaver_guard_1" />
+			<AvailablePiece	id="cleaver_guard_2" />
+			<AvailablePiece	id="cleaver_guard_3" />
+			<AvailablePiece	id="cleaver_guard_4" />
+			<AvailablePiece	id="cleaver_guard_5" />
+			<AvailablePiece	id="aserai_guard_1" />
+			<AvailablePiece	id="aserai_guard_2" />
+			<AvailablePiece id="aserai_guard_3" />
+			<AvailablePiece	id="aserai_guard_4" />
+			<AvailablePiece	id="aserai_guard_5" />
+			<AvailablePiece	id="aserai_guard_6" />
+			<AvailablePiece	id="aserai_guard_7" />
+			<AvailablePiece	id="aserai_guard_8" />
+			<AvailablePiece	id="aserai_guard_9" />
+			<AvailablePiece id="battania_guard_1" />
+			<AvailablePiece	id="battania_guard_3" />
+			<AvailablePiece	id="battania_guard_5" />
+			<AvailablePiece	id="battania_guard_6" />
+			<AvailablePiece	id="battania_guard_7" />
+			<AvailablePiece	id="battania_guard_8" />
+			<AvailablePiece	id="battania_guard_9" />
+			<AvailablePiece	id="wood_guard_1" />
 			<AvailablePiece
 				id="empire_grip_7" />
 			<AvailablePiece

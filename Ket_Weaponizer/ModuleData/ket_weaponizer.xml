@@ -25,51 +25,34 @@
 
 	<CraftedItem id="empire_2hspatha_ket" name="{KETw2h01}Two-Handed Spatha" crafting_template="TwoHandedSword"	modifier_group="sword">
 		<Pieces>
-			<Piece id="empire_blade_2" Type="Blade" scale_factor="110" />
-			<Piece id="empire_guard_2" Type="Guard"	scale_factor="100" />
-			<Piece id="empire_grip_7"  Type="Handle"  scale_factor="100" />
-			<Piece id="cleaver_pommel_1" Type="Pommel" scale_factor="100" />
+			<Piece id="empire_blade_2" 		Type="Blade" scale_factor="110" />
+			<Piece id="empire_guard_2" 		Type="Guard"	scale_factor="100" />
+			<Piece id="empire_grip_7"  		Type="Handle"  scale_factor="100" />
+			<Piece id="cleaver_pommel_1" 	Type="Pommel" scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
 	<CraftedItem id="empire_2hflatspatha_ket" name="{KETw2h06}Two-Handed Flat Spatha" crafting_template="TwoHandedSword" modifier_group="sword">
 		<Pieces>
-			<Piece id="empire_blade_4" Type="Blade" scale_factor="110" />
-			<Piece id="empire_guard_4" Type="Guard"	scale_factor="100" />
-			<Piece id="empire_grip_9" Type="Handle"	scale_factor="100" />
-			<Piece id="cleaver_pommel_4" Type="Pommel" scale_factor="100" />
+			<Piece id="empire_blade_4" 		Type="Blade" scale_factor="110" />
+			<Piece id="empire_guard_4" 		Type="Guard"	scale_factor="100" />
+			<Piece id="empire_grip_9" 		Type="Handle"	scale_factor="100" />
+			<Piece id="cleaver_pommel_4" 	Type="Pommel" scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
 	<CraftedItem id="sturgian_2hsword_ket" name="{KETw2h02}Barbarian Two-Handed Sword" crafting_template="TwoHandedSword" culture="Culture.sturgian" modifier_group="sword">
 		<Pieces>
-			<Piece id="sturgian_blade_1" Type="Blade" scale_factor="110" />
-			<Piece id="sturgian_guard_1" Type="Guard" scale_factor="100" />
-			<Piece id="sturgian_grip_32" Type="Handle" scale_factor="100" />
-			<Piece id="sturgian_pommel_3" Type="Pommel" scale_factor="100" />
+			<Piece id="sturgian_blade_1" 	Type="Blade" scale_factor="110" />
+			<Piece id="sturgian_guard_1" 	Type="Guard" scale_factor="100" />
+			<Piece id="sturgian_grip_32" 	Type="Handle" scale_factor="100" />
+			<Piece id="sturgian_pommel_3" 	Type="Pommel" scale_factor="100" />
 		</Pieces>
 	</CraftedItem>	
-	<CraftedItem
-		id="aserai_2hkaskara_ket"
-		name="{KETw2h03}AseraI Two-Handed Kaskara"
-		crafting_template="TwoHandedSword"
-		culture="Culture.aserai"
-		modifier_group="sword">
+	<CraftedItem id="aserai_2hkaskara_ket"	name="{KETw2h03}AseraI Two-Handed Kaskara"	crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
 		<Pieces>
-			<Piece
-				id="aserai_blade_9"
-				Type="Blade"
-				scale_factor="100" />
-			<Piece
-				id="aserai_guard_1"
-				Type="Guard"
-				scale_factor="100" />
-			<Piece
-				id="aserai_grip_23"
-				Type="Handle"
-				scale_factor="100" />
-			<Piece
-				id="aserai_pommel_2"
-				Type="Pommel"
-				scale_factor="100" />
+			<Piece	id="aserai_blade_9"		Type="Blade"	scale_factor="100" />
+			<Piece	id="aserai_guard_1"		Type="Guard"	scale_factor="100" />
+			<Piece	id="aserai_grip_23"		Type="Handle"	scale_factor="100" />
+			<Piece	id="aserai_pommel_2"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
 	<CraftedItem
