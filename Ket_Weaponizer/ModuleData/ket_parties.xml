@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <partyTemplates>
-	<MBPartyTemplate
-		id="looters_template">
+	<MBPartyTemplate id="looters_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="1"
@@ -17,8 +16,7 @@
 				troop="NPCCharacter.ket_pillager" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="looters_quest_template">
+	<MBPartyTemplate id="looters_quest_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="10"
@@ -34,8 +32,7 @@
 				troop="NPCCharacter.ket_pillager" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="sea_raiders_template">
+	<MBPartyTemplate id="sea_raiders_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="8"
@@ -55,8 +52,7 @@
 				troop="NPCCharacter.sea_raiders_chief" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="mountain_bandits_template">
+	<MBPartyTemplate id="mountain_bandits_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="8"
@@ -76,8 +72,7 @@
 				troop="NPCCharacter.mountain_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="forest_bandits_template">
+	<MBPartyTemplate id="forest_bandits_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="12"
@@ -97,8 +92,7 @@
 				troop="NPCCharacter.forest_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="desert_bandits_template">
+	<MBPartyTemplate id="desert_bandits_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="8"
@@ -118,8 +112,7 @@
 				troop="NPCCharacter.desert_bandits_chief" />
 		</stacks>
 	</MBPartyTemplate>
-	<MBPartyTemplate
-		id="steppe_bandits_template">
+	<MBPartyTemplate id="steppe_bandits_template">
 		<stacks>
 			<PartyTemplateStack
 				min_value="8"
