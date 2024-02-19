@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemModifiers>
 	<!-- Swords -->
-	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="epic_sword"			name="Epic {ITEMNAME}"					loot_drop_score="20"		production_drop_score="5"	damage="10"		speed="5"	price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="epic_sword"			name="Epic {ITEMNAME}"					loot_drop_score="20"	production_drop_score="5"	damage="10"		speed="5"	price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="legendary_sword"	name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="7"		speed="3"	price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="masterwork_sword"	name="{=8Tal0XIj}Masterwork {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="5"		speed="2"	price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="balanced_sword"		name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="3"		speed="1"	price_factor="1.2"	quality="fine" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="dull_sword"			name="{=LmzHz4CG}Dull {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-10"	speed="-10"	price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="rusty_sword"		name="{=l7QEpVwU}Rusty {ITEMNAME}"		loot_drop_score="20"	production_drop_score="5"	damage="-15"	speed="-5"	price_factor="0.3"	quality="poor" />
 	<!-- Bows -->
-	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="epic_bow"			name="Epic {ITEMNAME}"					loot_drop_score="20"		production_drop_score="5"	damage="10"		speed="6"	missile_speed="6"	price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="epic_bow"			name="Epic {ITEMNAME}"					loot_drop_score="20"	production_drop_score="5"	damage="10"		speed="6"	missile_speed="6"	price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="legendary_bow"		name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="7"		speed="4"	missile_speed="4"	price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="masterwork_bow"		name="{=8Tal0XIj}Masterwork {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="5"		speed="3"	missile_speed="3"	price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="balanced_bow"		name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="1"		speed="2"	missile_speed="2"	price_factor="1.2"	quality="fine" />
