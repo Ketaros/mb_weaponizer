@@ -135,154 +135,80 @@
 			<AvailablePiece	id="battania_guard_8" />
 			<AvailablePiece	id="battania_guard_9" />
 			<AvailablePiece	id="wood_guard_1" />
-			<AvailablePiece
-				id="empire_grip_7" />
-			<AvailablePiece
-				id="empire_grip_8" />
-			<AvailablePiece
-				id="empire_grip_9" />
-			<AvailablePiece
-				id="empire_grip_10" />
-			<AvailablePiece
-				id="empire_grip_11" />
-			<AvailablePiece
-				id="empire_grip_12" />
-			<AvailablePiece
-				id="empire_grip_13" />
-			<AvailablePiece
-				id="empire_grip_14" />
-			<AvailablePiece
-				id="empire_grip_15" />
-			<AvailablePiece
-				id="sturgian_grip_15" />
-			<AvailablePiece
-				id="sturgian_grip_16" />
-			<AvailablePiece
-				id="sturgian_grip_17" />
-			<AvailablePiece
-				id="sturgian_grip_18" />
-			<AvailablePiece
-				id="sturgian_grip_19" />
-			<AvailablePiece
-				id="sturgian_grip_20" />
-			<AvailablePiece
-				id="sturgian_grip_21" />
-			<AvailablePiece
-				id="sturgian_grip_22" />
-			<AvailablePiece
-				id="sturgian_grip_23" />
-			<AvailablePiece
-				id="sturgian_grip_24" />
-			<AvailablePiece
-				id="sturgian_grip_25" />
-			<AvailablePiece
-				id="sturgian_grip_26" />
-			<AvailablePiece
-				id="sturgian_grip_27" />
-			<AvailablePiece
-				id="sturgian_grip_28" />
-			<AvailablePiece
-				id="sturgian_grip_29" />
-			<AvailablePiece
-				id="sturgian_grip_30" />
-			<AvailablePiece
-				id="sturgian_grip_31" />
-			<AvailablePiece
-				id="sturgian_grip_32" />
-			<AvailablePiece
-				id="sturgian_grip_33" />
-			<AvailablePiece
-				id="khuzait_grip_9" />
-			<AvailablePiece
-				id="khuzait_grip_10" />
-			<AvailablePiece
-				id="khuzait_grip_11" />
-			<AvailablePiece
-				id="khuzait_grip_12" />
-			<AvailablePiece
-				id="khuzait_grip_13" />
-			<AvailablePiece
-				id="khuzait_grip_14" />
-			<AvailablePiece
-				id="khuzait_grip_15" />
-			<AvailablePiece
-				id="khuzait_grip_16" />
-			<AvailablePiece
-				id="khuzait_grip_17" />
-			<AvailablePiece
-				id="vlandian_grip_7" />
-			<AvailablePiece
-				id="vlandian_grip_8" />
-			<AvailablePiece
-				id="vlandian_grip_9" />
-			<AvailablePiece
-				id="vlandian_grip_10" />
-			<AvailablePiece
-				id="vlandian_grip_11" />
-			<AvailablePiece
-				id="vlandian_grip_12" />
-			<AvailablePiece
-				id="vlandian_grip_13" />
-			<AvailablePiece
-				id="vlandian_grip_14" />
-			<AvailablePiece
-				id="vlandian_grip_15" />
-			<AvailablePiece
-				id="vlandian_grip_16" />
-			<AvailablePiece
-				id="vlandian_grip_17" />
-			<AvailablePiece
-				id="vlandian_grip_18" />
-			<AvailablePiece
-				id="cleaver_grip_4" />
-			<AvailablePiece
-				id="cleaver_grip_6" />
-			<AvailablePiece
-				id="cleaver_grip_7" />
-			<AvailablePiece
-				id="cleaver_grip_8" />
-			<AvailablePiece
-				id="cleaver_grip_10" />
-			<AvailablePiece
-				id="aserai_grip_10" />
-			<AvailablePiece
-				id="aserai_grip_11" />
-			<AvailablePiece
-				id="aserai_grip_12" />
-			<AvailablePiece
-				id="aserai_grip_13" />
-			<AvailablePiece
-				id="aserai_grip_14" />
-			<AvailablePiece
-				id="aserai_grip_15" />
-			<AvailablePiece
-				id="aserai_grip_16" />
-			<AvailablePiece
-				id="aserai_grip_17" />
-			<AvailablePiece
-				id="aserai_grip_18" />
-			<AvailablePiece
-				id="aserai_grip_19" />
-			<AvailablePiece
-				id="aserai_grip_20" />
-			<AvailablePiece
-				id="aserai_grip_21" />
-			<AvailablePiece
-				id="aserai_grip_22" />
-			<AvailablePiece
-				id="aserai_grip_23" />
-			<AvailablePiece
-				id="battania_grip_2" />
-			<AvailablePiece
-				id="battania_grip_5" />
-			<AvailablePiece
-				id="battania_grip_6" />
-			<AvailablePiece
-				id="battania_grip_8" />
-			<AvailablePiece
-				id="battania_grip_9" />
-			<AvailablePiece
-				id="wood_grip_2" />
+			<AvailablePiece	id="empire_grip_7" />
+			<AvailablePiece	id="empire_grip_8" />
+			<AvailablePiece	id="empire_grip_9" />
+			<AvailablePiece id="empire_grip_10" />
+			<AvailablePiece	id="empire_grip_11" />
+			<AvailablePiece	id="empire_grip_12" />
+			<AvailablePiece	id="empire_grip_13" />
+			<AvailablePiece	id="empire_grip_14" />
+			<AvailablePiece	id="empire_grip_15" />
+			<AvailablePiece	id="sturgian_grip_15" />
+			<AvailablePiece	id="sturgian_grip_16" />
+			<AvailablePiece	id="sturgian_grip_17" />
+			<AvailablePiece	id="sturgian_grip_18" />
+			<AvailablePiece	id="sturgian_grip_19" />
+			<AvailablePiece	id="sturgian_grip_20" />
+			<AvailablePiece	id="sturgian_grip_21" />
+			<AvailablePiece	id="sturgian_grip_22" />
+			<AvailablePiece	id="sturgian_grip_23" />
+			<AvailablePiece	id="sturgian_grip_24" />
+			<AvailablePiece	id="sturgian_grip_25" />
+			<AvailablePiece	id="sturgian_grip_26" />
+			<AvailablePiece	id="sturgian_grip_27" />
+			<AvailablePiece	id="sturgian_grip_28" />
+			<AvailablePiece	id="sturgian_grip_29" />
+			<AvailablePiece	id="sturgian_grip_30" />
+			<AvailablePiece	id="sturgian_grip_31" />
+			<AvailablePiece	id="sturgian_grip_32" />
+			<AvailablePiece	id="sturgian_grip_33" />
+			<AvailablePiece	id="khuzait_grip_9" />
+			<AvailablePiece	id="khuzait_grip_10" />
+			<AvailablePiece	id="khuzait_grip_11" />
+			<AvailablePiece	id="khuzait_grip_12" />
+			<AvailablePiece	id="khuzait_grip_13" />
+			<AvailablePiece	id="khuzait_grip_14" />
+			<AvailablePiece	id="khuzait_grip_15" />
+			<AvailablePiece	id="khuzait_grip_16" />
+			<AvailablePiece	id="khuzait_grip_17" />
+			<AvailablePiece	id="vlandian_grip_7" />
+			<AvailablePiece	id="vlandian_grip_8" />
+			<AvailablePiece	id="vlandian_grip_9" />
+			<AvailablePiece	id="vlandian_grip_10" />
+			<AvailablePiece	id="vlandian_grip_11" />
+			<AvailablePiece	id="vlandian_grip_12" />
+			<AvailablePiece	id="vlandian_grip_13" />
+			<AvailablePiece	id="vlandian_grip_14" />
+			<AvailablePiece	id="vlandian_grip_15" />
+			<AvailablePiece	id="vlandian_grip_16" />
+			<AvailablePiece	id="vlandian_grip_17" />
+			<AvailablePiece	id="vlandian_grip_18" />
+			<AvailablePiece	id="cleaver_grip_4" />
+			<AvailablePiece	id="cleaver_grip_6" />
+			<AvailablePiece	id="cleaver_grip_7" />
+			<AvailablePiece	id="cleaver_grip_8" />
+			<AvailablePiece	id="cleaver_grip_10" />
+			<AvailablePiece	id="aserai_grip_10" />
+			<AvailablePiece	id="aserai_grip_11" />
+			<AvailablePiece	id="aserai_grip_12" />
+			<AvailablePiece	id="aserai_grip_13" />
+			<AvailablePiece	id="aserai_grip_14" />
+			<AvailablePiece	id="aserai_grip_15" />
+			<AvailablePiece	id="aserai_grip_16" />
+			<AvailablePiece	id="aserai_grip_17" />
+			<AvailablePiece	id="aserai_grip_18" />
+			<AvailablePiece	id="aserai_grip_19" />
+			<AvailablePiece	id="aserai_grip_20" />
+			<AvailablePiece	id="aserai_grip_21" />
+			<AvailablePiece	id="aserai_grip_22" />
+			<AvailablePiece	id="aserai_grip_23" />
+			<AvailablePiece	id="battania_grip_2" />
+			<AvailablePiece	id="battania_grip_5" />
+			<AvailablePiece	id="battania_grip_6" />
+			<AvailablePiece	id="battania_grip_8" />
+			<AvailablePiece	id="battania_grip_9" />
+			<AvailablePiece	id="wood_grip_2" />
 			<AvailablePiece
 				id="empire_pommel_1" />
 			<AvailablePiece
