@@ -11,7 +11,17 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 - Added 09 New Javelin Handles
 - Added 17 New Javelin Pommels
 - Added 08 New Javelins to the world
-- Added 03 New Javelins as arena prize
+- Added 04 New Javelins as arena prize
 
 ### About: One-Handed Swords ###
 - Added 2 New One-Handed Swords to the world
+
+### About: Two-Handed Swords ###
+- Added 16 New Two-Handed Swords to the world
+- Added 02 New Two-Handed Swords as arena prize
+
+### About: Two-Handed Axes ###
+- Added 10 New Two-Handed Axes as arena prize
+
+### About: Two-Handed Maces ###
+- Added 06 New Two-Handed Maces as arena prize
