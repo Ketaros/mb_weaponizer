@@ -8,7 +8,7 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 ### About: Javelins ###
 - Added 24 New Craftable Javelins Pieces
 - Added 8 New Javelins to the world
-- Added 2 New Javelin as arena prize
+- Added 3 New Javelin as arena prize
 
 ### About: One-Handed Swords ###
 - Added 2 New One-Handed Swords to the world

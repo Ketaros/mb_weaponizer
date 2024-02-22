@@ -240,7 +240,7 @@
 		</Pieces>
 		<!-- Length: 104 Weight: 0.98 -->
 	</CraftedItem>
-	<CraftedItem id="javelin_of_death" name="Javelin of Death" crafting_template="Javelin">
+	<CraftedItem id="javelin_of_death" name="Javelin of Death" crafting_template="Javelin" modifier_group="spear_dart_throwing" is_merchandise="false">
 		<Pieces>
 			<Piece id="spear_blade_13"			Type="Blade"/>
 			<Piece id="spear_guard_15"			Type="Guard"/>
@@ -249,7 +249,7 @@
 		</Pieces>
 		<!-- Length: 97 Weight: 1.06 -->
 	</CraftedItem>
-	<CraftedItem id="savage_silencer" name="Savage Silencer" crafting_template="Javelin">
+	<CraftedItem id="savage_silencer" name="Savage Silencer" crafting_template="Javelin" modifier_group="spear_dart_throwing" is_merchandise="false">
 		<Pieces>
 			<Piece id="spear_blade_13"			Type="Blade"/>
 			<Piece id="spear_guard_19"			Type="Guard"/>
