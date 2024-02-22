@@ -36,56 +36,12 @@
 	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="bent_bolts"			name="{=eb4miTUB}Bent {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-1"	stack_count="2"		price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="splintered_bolts"	name="{=8Pd6fLoy}Splintered {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-5"	stack_count="2"		price_factor="0.3"	quality="poor" />
 	<!-- Cheap weapons (clubs and stuff?) -->
-	<ItemModifier
-		modifier_group="ItemModifierGroup.cheap_weapon"
-		id="legendary_cheap"
-		name="{=lRf4t9Qg}Legendary {ITEMNAME}"
-		loot_drop_score="2"
-		production_drop_score="5"
-		damage="7"
-		speed="3"
-		price_factor="1.8"
-		quality="legendary" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.cheap_weapon"
-		id="fine_cheap"
-		name="{=xeb1b5PQ}Fine {ITEMNAME}"
-		loot_drop_score="5"
-		production_drop_score="10"
-		damage="5"
-		speed="2"
-		price_factor="1.5"
-		quality="masterwork" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.cheap_weapon"
-		id="well_crafted_cheap"
-		name="{=85WO1MKG}Well made {ITEMNAME}"
-		loot_drop_score="10"
-		production_drop_score="15"
-		damage="2"
-		speed="1"
-		price_factor="1.2"
-		quality="fine" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.cheap_weapon"
-		id="bent_cheap"
-		name="{=eb4miTUB}Bent {ITEMNAME}"
-		loot_drop_score="15"
-		production_drop_score="5"
-		damage="-5"
-		speed="-1"
-		price_factor="0.6"
-		quality="inferior" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.cheap_weapon"
-		id="cracked_cheap"
-		name="{=br0N6SSH}Cracked {ITEMNAME}"
-		loot_drop_score="20"
-		production_drop_score="5"
-		damage="-10"
-		speed="-2"
-		price_factor="0.4"
-		quality="poor" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="epic_cheap"			name="{=lRf4t9Qg}Epic {ITEMNAME}"		loot_drop_score="1"		production_drop_score="3"	damage="10"		speed="4"	price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="legendary_cheap"	name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="7"		speed="3"	price_factor="1.8"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="fine_cheap"			name="{=xeb1b5PQ}Fine {ITEMNAME}"		loot_drop_score="5"		production_drop_score="10"	damage="5"		speed="2"	price_factor="1.5"	quality="masterwork" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="well_crafted_cheap"	name="{=85WO1MKG}Well made {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="2"		speed="1"	price_factor="1.2"	quality="fine" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="bent_cheap"			name="{=eb4miTUB}Bent {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-5"		speed="-1"	price_factor="0.6"	quality="inferior" />
+	<ItemModifier	modifier_group="ItemModifierGroup.cheap_weapon"	id="cracked_cheap"		name="{=br0N6SSH}Cracked {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-10"	speed="-2"	price_factor="0.4"	quality="poor" />
 	<!-- Polearms -->
 	<ItemModifier
 		modifier_group="ItemModifierGroup.polearm"
