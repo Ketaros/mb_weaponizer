@@ -4,14 +4,32 @@
 <!-- ############### DAGGERS #################### -->
 
 <!-- ############### JAVELINS #################### -->
-	<CraftedItem id="farmers_jaavelin" name="Farmer's Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<CraftedItem id="farmers_javelin" name="Farmer's Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 	<Pieces>
-		<Piece id="spear_blade_32"				Type="Blade"/>
+		<Piece id="spear_blade_29"				Type="Blade"/>
 		<Piece id="default_polearm_guard"		Type="Guard"/>
 		<Piece id="spear_handle_12"				Type="Handle"/>
 		<Piece id="default_polearm_pommel"		Type="Pommel"/>
 	</Pieces>
 		<!-- Length: 78 Weight: 1.52 -->
+	</CraftedItem>
+	<CraftedItem id="trident_harpoon" name="Trident Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_32" 	Type="Blade"/>
+			<Piece id="spear_guard_7"	Type="Guard"/>
+			<Piece id="spear_handle_10"	Type="Handle"	scale_factor="90"/>
+			<Piece id="spear_pommel_5"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 79 Weight: 1.35 -->
+	</CraftedItem>
+	<CraftedItem id="levies_spear"	name="Levie's Spear"	crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_30"			Type="Blade"/>
+			<Piece id="default_polearm_guard"	Type="Guard"/>
+			<Piece id="spear_handle_9"			Type="Handle"/>
+			<Piece id="default_polearm_pommel"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 84 Weight: 0.97 -->
 	</CraftedItem>
 	<CraftedItem id="tribal_javelin" name="Tribal Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
@@ -154,8 +172,7 @@
 			<Piece	id="battania_pommel_6"		Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem
-		id="vlandian_2hfalchion_ket" name="{KETw2h11}Vlandian Two-Handed Falchion" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+	<CraftedItem	id="vlandian_2hfalchion_ket" name="{KETw2h11}Vlandian Two-Handed Falchion" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece 	id="vlandian_blade_9"		Type="Blade"	scale_factor="110" />
 			<Piece	id="vlandian_guard_7"		Type="Guard"	scale_factor="100" />
