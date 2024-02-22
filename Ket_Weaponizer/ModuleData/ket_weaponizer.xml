@@ -4,7 +4,15 @@
 <!-- ############### DAGGERS #################### -->
 
 <!-- ############### JAVELINS #################### -->
-
+	<CraftedItem id="farmers_jaavelin" name="Farmer's Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<Pieces>
+		<Piece id="spear_blade_32"				Type="Blade"/>
+		<Piece id="default_polearm_guard"		Type="Guard"/>
+		<Piece id="spear_handle_12"				Type="Handle"/>
+		<Piece id="default_polearm_pommel"		Type="Pommel"/>
+	</Pieces>
+		<!-- Length: 78 Weight: 1.52 -->
+	</CraftedItem>
 	<CraftedItem id="tribal_javelin" name="Tribal Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_9" 			Type="Blade"/>
@@ -32,7 +40,7 @@
 		</Pieces>
 		<!-- Length: 72 Weight: 0.73 -->
 	</CraftedItem>
-	<CraftedItem id="thamaskene_javelin" name="Thamaskene Steel Javelin" crafting_template="Javelin">
+	<CraftedItem id="thamaskene_javelin" name="Thamaskene Steel Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_41" 			Type="Blade"	scale_factor="94"/>
 			<Piece id="default_polearm_guard" 	Type="Guard"/>
