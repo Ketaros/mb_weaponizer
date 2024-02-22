@@ -326,6 +326,8 @@
 			<WeaponFlag	value="UnloadWhenSheathed" />
 		</WeaponFlags>
 		<AvailablePieces>
+			<AvailablePiece	id="spear_blade_5" />
+			<AvailablePiece	id="spear_blade_13" />
 			<AvailablePiece	id="spear_blade_25" />
 			<AvailablePiece	id="spear_blade_26" />
 			<AvailablePiece	id="spear_blade_29" />

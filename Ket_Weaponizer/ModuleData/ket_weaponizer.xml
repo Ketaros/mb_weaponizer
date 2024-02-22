@@ -67,7 +67,15 @@
 		</Pieces>
 		<!-- Length: 92 Weight: 0.95 -->
 	</CraftedItem>
-
+	<CraftedItem id="forked_harpoon" name="Forked Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_26"			Type="Blade"/>
+			<Piece id="spear_guard_15"			Type="Guard"/>
+			<Piece id="spear_handle_11"			Type="Handle"/>
+			<Piece id="default_polearm_pommel"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 77 Weight: 1.32 -->
+	</CraftedItem>
 <!-- ############### 1-HANDED SWORDS #################### -->
 
 	<CraftedItem id="ruffian_sword_t1" name="{=KETw1h01}Ruffian Sword" crafting_template="OneHandedSword" modifier_group="sword">
