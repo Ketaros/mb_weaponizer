@@ -240,6 +240,15 @@
 		</Pieces>
 		<!-- Length: 104 Weight: 0.98 -->
 	</CraftedItem>
+	<CraftedItem id="javelin_of_death" name="Javelin of Death" crafting_template="Javelin">
+		<Pieces>
+			<Piece id="spear_blade_13"			Type="Blade"/>
+			<Piece id="spear_guard_15"			Type="Guard"/>
+			<Piece id="spear_handle_10"			Type="Handle"/>
+			<Piece id="spear_pommel_12"			Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 97 Weight: 1.06 -->
+	</CraftedItem>
 <!-- ///// TWO-HANDED SWORDS -->
 	<CraftedItem id="onyx_anihilator_2hsword" name="Onyx Anihilator" crafting_template="TwoHandedSword" culture="Culture.battania"	modifier_group="sword" is_merchandise="false">
 		<Pieces>
