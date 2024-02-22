@@ -255,14 +255,9 @@
 	</CraftedItem>
 	<CraftedItem id="mirage_marauder_2haxe" 	name="Aserai Mirage Marauder" 	crafting_template="TwoHandedAxe" culture="Culture.aserai" 	is_merchandise="false">
 		<Pieces>
-			<Piece id="axe_craft_17_head"
-						 Type="Blade"
-						 scale_factor="110"/>
-			<Piece id="axe_craft_6_handle"
-						 Type="Handle"
-						 scale_factor="94"/>
-			<Piece id="spear_pommel_11"
-						 Type="Pommel"/>
+			<Piece id="axe_craft_17_head"	Type="Blade"	 scale_factor="110"/>
+			<Piece id="axe_craft_6_handle"	Type="Handle"	 scale_factor="94"/>
+			<Piece id="spear_pommel_11"		Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 126 Weight: 1.85 -->
 	</CraftedItem>
