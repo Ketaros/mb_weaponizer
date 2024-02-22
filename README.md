@@ -6,7 +6,7 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 - Created a New Top Tier: Epic
 
 ### About: Javelins ###
-- Added 7 New Craftable Javelins Head
+- Added 24 New Craftable Javelins Pieces
 - Added 8 New Javelins to the world
 - Added 2 New Javelin as arena prize
 
