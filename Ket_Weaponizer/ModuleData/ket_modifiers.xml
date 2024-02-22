@@ -1,79 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ItemModifiers>
 	<!-- Swords -->
-	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="epic_sword"			name="Epic {ITEMNAME}"					loot_drop_score="20"	production_drop_score="5"	damage="10"		speed="5"	price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="epic_sword"			name="Epic {ITEMNAME}"					loot_drop_score="1"		production_drop_score="3"	damage="10"		speed="5"	price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="legendary_sword"	name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="7"		speed="3"	price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="masterwork_sword"	name="{=8Tal0XIj}Masterwork {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="5"		speed="2"	price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="balanced_sword"		name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="3"		speed="1"	price_factor="1.2"	quality="fine" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="dull_sword"			name="{=LmzHz4CG}Dull {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-10"	speed="-10"	price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.sword"	id="rusty_sword"		name="{=l7QEpVwU}Rusty {ITEMNAME}"		loot_drop_score="20"	production_drop_score="5"	damage="-15"	speed="-5"	price_factor="0.3"	quality="poor" />
 	<!-- Bows -->
-	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="epic_bow"			name="Epic {ITEMNAME}"					loot_drop_score="20"	production_drop_score="5"	damage="10"		speed="6"	missile_speed="6"	price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="epic_bow"			name="Epic {ITEMNAME}"					loot_drop_score="1"		production_drop_score="3"	damage="10"		speed="6"	missile_speed="6"	price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="legendary_bow"		name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="7"		speed="4"	missile_speed="4"	price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="masterwork_bow"		name="{=8Tal0XIj}Masterwork {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="5"		speed="3"	missile_speed="3"	price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="balanced_bow"		name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="1"		speed="2"	missile_speed="2"	price_factor="1.2"	quality="fine" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="cracked_bow"		name="{=br0N6SSH}Cracked {ITEMNAME}"	loot_drop_score="15"	production_drop_score="5"	damage="-8"		speed="-2"	missile_speed="0"	price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.bow"		id="splintered_bow"		name="{=8Pd6fLoy}Splintered {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-15"	speed="-4"	missile_speed="-3"	price_factor="0.3"	quality="poor" />
 	<!-- Crossbows -->
+	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="epic_crossbow"			name="{=lRf4t9Qg}Epic {ITEMNAME}"		loot_drop_score="1"		production_drop_score="3"	damage="6"		speed="6"	missile_speed="18"	price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="legendary_crossbow"		name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="4"		speed="4"	missile_speed="15"	price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="masterwork_crossbow"	name="{=8Tal0XIj}Masterwork {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="3"		speed="3"	missile_speed="9"	price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="tuned_crossbow"			name="{=WbaIorOh}Tuned {ITEMNAME}"		loot_drop_score="10"	production_drop_score="15"	damage="0"		speed="0"	missile_speed="3"	price_factor="1.2"	quality="fine" />
 	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="bent_crossbow"			name="{=eb4miTUB}Bent {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-5"		speed="-1"	missile_speed="-1"	price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.crossbow"	id="cracked_crossbow"		name="{=br0N6SSH}Cracked {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-10"	speed="-2"	missile_speed="-6"	price_factor="0.3"	quality="poor" />
 	<!-- Arrows -->
+	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="epic_arrows"		name="{=lRf4t9Qg}Epic {ITEMNAME}"		loot_drop_score="1"		production_drop_score="3"	damage="5"	stack_count="5"		price_factor="2.0"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="legendary_arrows"	name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="3"	stack_count="5"		price_factor="1.8"	quality="legendary" />
 	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="balanced_arrows"	name="{=fdgcpipH}Aligned {ITEMNAME}"	loot_drop_score="5"		production_drop_score="10"	damage="2"	stack_count="5"		price_factor="1.5"	quality="masterwork" />
 	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="large_bag_arrows"	name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="0"	stack_count="3"		price_factor="2"	quality="fine" />
 	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="bent_arrows"		name="{=eb4miTUB}Bent {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-1"	stack_count="3"		price_factor="0.6"	quality="inferior" />
 	<ItemModifier	modifier_group="ItemModifierGroup.arrow"	id="splintered_arrows"	name="{=8Pd6fLoy}Splintered {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-3"	stack_count="3"		price_factor="0.3"	quality="poor" />
 	<!-- Bolts -->
-	<ItemModifier
-		modifier_group="ItemModifierGroup.bolt"
-		id="legendary_bolts"
-		name="{=lRf4t9Qg}Legendary {ITEMNAME}"
-		loot_drop_score="2"
-		production_drop_score="5"
-		damage="3"
-		stack_count="4"
-		price_factor="1.8"
-		quality="legendary" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.bolt"
-		id="balanced_bolts"
-		name="{=fdgcpipH}Aligned{ITEMNAME}"
-		loot_drop_score="5"
-		production_drop_score="10"
-		damage="2"
-		price_factor="1.5"
-		quality="masterwork" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.bolt"
-		id="large_bag_bolts"
-		name="{=fdgcpipH}Balanced {ITEMNAME}"
-		loot_drop_score="10"
-		production_drop_score="15"
-		damage="0"
-		stack_count="2"
-		price_factor="1.2"
-		quality="fine" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.bolt"
-		id="bent_bolts"
-		name="{=eb4miTUB}Bent {ITEMNAME}"
-		loot_drop_score="15"
-		production_drop_score="5"
-		damage="-1"
-		price_factor="0.6"
-		quality="inferior" />
-	<ItemModifier
-		modifier_group="ItemModifierGroup.bolt"
-		id="splintered_bolts"
-		name="{=8Pd6fLoy}Splintered {ITEMNAME}"
-		loot_drop_score="20"
-		production_drop_score="5"
-		damage="-5"
-		price_factor="0.3"
-		quality="poor" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="epic_bolts"			name="{=lRf4t9Qg}Epic {ITEMNAME}"		loot_drop_score="1"		production_drop_score="3"	damage="5"	stack_count="4"		price_factor="2.0"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="legendary_bolts"	name="{=lRf4t9Qg}Legendary {ITEMNAME}"	loot_drop_score="2"		production_drop_score="5"	damage="3"	stack_count="4"		price_factor="1.8"	quality="legendary" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="balanced_bolts"		name="{=fdgcpipH}Aligned{ITEMNAME}"		loot_drop_score="5"		production_drop_score="10"	damage="2"	stack_count="4"		price_factor="1.5"	quality="masterwork" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="large_bag_bolts"	name="{=fdgcpipH}Balanced {ITEMNAME}"	loot_drop_score="10"	production_drop_score="15"	damage="0"	stack_count="2"		price_factor="1.2"	quality="fine" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="bent_bolts"			name="{=eb4miTUB}Bent {ITEMNAME}"		loot_drop_score="15"	production_drop_score="5"	damage="-1"	stack_count="2"		price_factor="0.6"	quality="inferior" />
+	<ItemModifier	modifier_group="ItemModifierGroup.bolt"		id="splintered_bolts"	name="{=8Pd6fLoy}Splintered {ITEMNAME}"	loot_drop_score="20"	production_drop_score="5"	damage="-5"	stack_count="2"		price_factor="0.3"	quality="poor" />
 	<!-- Cheap weapons (clubs and stuff?) -->
 	<ItemModifier
 		modifier_group="ItemModifierGroup.cheap_weapon"
