@@ -230,7 +230,7 @@
 	</CraftedItem>
 	
 	<!-- #region Reward Weapons -->
-<!-- ///// JAVELIS -->
+<!-- ///// JAVELINS -->
 	<CraftedItem id="shark_nightmare" name="The Shark's Nightmare" crafting_template="Javelin" modifier_group="spear_dart_throwing" is_merchandise="false">
 		<Pieces>
 			<Piece id="spear_blade_41"			Type="Blade"/>
