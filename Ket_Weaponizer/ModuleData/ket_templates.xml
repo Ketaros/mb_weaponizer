@@ -4469,6 +4469,8 @@
 			<!--<StatData stat_type="FollowUp" max_value="200" />-->
 		</StatsData>
 		<UsablePieces>
+			<UsablePiece	piece_id="spear_blade_25" />
+			<UsablePiece	piece_id="spear_blade_26" />
 			<UsablePiece	piece_id="spear_blade_29" />
 			<UsablePiece	piece_id="spear_blade_30" />
 			<UsablePiece	piece_id="spear_blade_32" />
