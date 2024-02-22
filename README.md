@@ -4,5 +4,5 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 
 ## Main Changes ##
 - XX Weapons Pre-Crafted
-- New Items Tier: Epic
-- Added New Bandit Types
+- Created a New Top Tier: Epic
+- Added XX New Weapons as Arena Prizes
