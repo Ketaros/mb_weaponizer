@@ -6,9 +6,12 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 - Created a New Top Tier: Epic
 
 ### About: Javelins ###
-- Added 24 New Craftable Javelins Pieces
-- Added 8 New Javelins to the world
-- Added 3 New Javelin as arena prize
+- Added 23 New Javelin Heads
+- Added 20 New Javelin Guards
+- Added 09 New Javelin Handles
+- Added 17 New Javelin Pommels
+- Added 08 New Javelins to the world
+- Added 03 New Javelins as arena prize
 
 ### About: One-Handed Swords ###
 - Added 2 New One-Handed Swords to the world

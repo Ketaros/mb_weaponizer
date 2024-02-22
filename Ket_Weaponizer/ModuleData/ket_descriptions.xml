@@ -326,30 +326,80 @@
 			<WeaponFlag	value="UnloadWhenSheathed" />
 		</WeaponFlags>
 		<AvailablePieces>
+			<!-- New Blades -->
+			<AvailablePiece	id="spear_blade_2" />
+			<AvailablePiece	id="spear_blade_3" />
+			<AvailablePiece	id="spear_blade_4" />
 			<AvailablePiece	id="spear_blade_5" />
+			<AvailablePiece	id="spear_blade_6" />
+			<AvailablePiece	id="spear_blade_7" />
+			<AvailablePiece	id="spear_blade_8" />
+			<AvailablePiece	id="spear_blade_11" />
 			<AvailablePiece	id="spear_blade_13" />
+			<AvailablePiece	id="spear_blade_18" />
+			<AvailablePiece	id="spear_blade_20" />
+			<AvailablePiece	id="spear_blade_23" />
+			<AvailablePiece	id="spear_blade_24" />		
 			<AvailablePiece	id="spear_blade_25" />
 			<AvailablePiece	id="spear_blade_26" />
 			<AvailablePiece	id="spear_blade_29" />
 			<AvailablePiece	id="spear_blade_30" />
 			<AvailablePiece	id="spear_blade_32" />
-			<AvailablePiece	id="axe_craft_17_handle" />
-			<AvailablePiece	id="axe_craft_21_handle" />
-			<AvailablePiece	id="axe_craft_22_handle" />
-			<AvailablePiece	id="axe_craft_24_handle" />
+			<AvailablePiece	id="spear_blade_36" />
+			<AvailablePiece	id="spear_blade_39" />
+			<AvailablePiece	id="spear_blade_40" />
+			<AvailablePiece	id="spear_blade_43" />
+			<AvailablePiece	id="spear_blade_45" />
+			<!-- New Guards -->
+			<AvailablePiece	id="spear_guard_1" />
+			<AvailablePiece	id="spear_guard_4" />
+			<AvailablePiece	id="spear_guard_5" />
+			<AvailablePiece	id="spear_guard_6" />
 			<AvailablePiece	id="spear_guard_2" />
 			<AvailablePiece	id="spear_guard_3" />
 			<AvailablePiece	id="spear_guard_8" />
 			<AvailablePiece	id="spear_guard_9" />
+			<AvailablePiece	id="spear_guard_10" />
+			<AvailablePiece	id="spear_guard_11" />
 			<AvailablePiece	id="spear_guard_12" />
 			<AvailablePiece	id="spear_guard_13" />
+			<AvailablePiece	id="spear_guard_14" />
+			<AvailablePiece	id="spear_guard_16" />
+			<AvailablePiece	id="spear_guard_17" />
+			<AvailablePiece	id="spear_guard_18" />
 			<AvailablePiece	id="spear_guard_19" />
+			<AvailablePiece	id="spear_guard_20" />
 			<AvailablePiece	id="spear_banner_16" />
 			<AvailablePiece	id="spear_banner_17" />
+			<!-- New Handles -->
+			<AvailablePiece	id="axe_craft_2_handle" />
+			<AvailablePiece	id="axe_craft_3_handle" />
+			<AvailablePiece	id="axe_craft_5_handle" />
+			<AvailablePiece	id="axe_craft_15_handle" />
+			<AvailablePiece	id="axe_craft_19_handle" />
+			<AvailablePiece	id="axe_craft_25_handle" />
+			<AvailablePiece	id="mace_handle_15" />
+			<AvailablePiece	id="mace_handle_16" />
+			<AvailablePiece	id="mace_handle_17" />
+			<!-- New Pommels -->
 			<AvailablePiece	id="spear_pommel_4" />
 			<AvailablePiece	id="spear_pommel_7" />
 			<AvailablePiece	id="spear_pommel_10" />
 			<AvailablePiece	id="aserai_pommel_8" />
+			<AvailablePiece	id="aserai_pommel_1" />
+			<AvailablePiece	id="battania_pommel_3" />
+			<AvailablePiece	id="battania_pommel_4" />
+			<AvailablePiece	id="empire_pommel_4" />
+			<AvailablePiece	id="empire_pommel_5" />
+			<AvailablePiece	id="empire_pommel_6" />
+			<AvailablePiece	id="khuzait_pommel_1" />
+			<AvailablePiece	id="khuzait_pommel_5" />
+			<AvailablePiece	id="sturgian_pommel_7" />
+			<AvailablePiece	id="vlandian_pommel_10" />
+			<AvailablePiece	id="khuzait_noble_pommel_3" />
+			<AvailablePiece	id="vlandian_pommel_2" />
+			<AvailablePiece	id="battania_noble_pommel_1" />
+			<!-- Vanila -->
 			<AvailablePiece	id="spear_blade_1" />
 			<AvailablePiece	id="spear_blade_9" />
 			<AvailablePiece	id="spear_blade_10" />

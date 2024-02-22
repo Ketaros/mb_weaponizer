@@ -258,6 +258,15 @@
 		</Pieces>
 		<!-- Length: 116 Weight: 0.66 -->
 	</CraftedItem>	
+	<CraftedItem id="shadow_lord" name="Shadow Lord" crafting_template="Javelin" modifier_group="spear_dart_throwing" is_merchandise="false">
+		<Pieces>
+			<Piece id="spear_blade_5" 			Type="Blade"/>
+			<Piece id="spear_guard_13"			Type="Guard"/>
+			<Piece id="mace_handle_15"			Type="Handle"/>
+			<Piece id="aserai_pommel_8"			Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 116 Weight: 1.66 -->
+	</CraftedItem>
 <!-- ///// TWO-HANDED SWORDS -->
 	<CraftedItem id="onyx_anihilator_2hsword" name="Onyx Anihilator" crafting_template="TwoHandedSword" culture="Culture.battania"	modifier_group="sword" is_merchandise="false">
 		<Pieces>
