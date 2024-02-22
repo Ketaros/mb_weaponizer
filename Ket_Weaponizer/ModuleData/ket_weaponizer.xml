@@ -52,7 +52,6 @@
 			<Piece id="wood_pommel_1" 			Type="Pommel" 	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-
 	<CraftedItem id="scoundrel_sword_t1"  name="{=KETw1h02}Scoundrel Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_crude_iron" 	Type="Blade" 	scale_factor="100" />
