@@ -6,3 +6,8 @@ These additions span across the realm, found in the hands of NPCs, awarded as ar
 - XX Weapons Pre-Crafted
 - Created a New Top Tier: Epic
 - Added XX New Weapons as Arena Prizes
+
+### About: Jaavelins ###
+- Added 3 Forks Head
+- Added 5 New Javelins to the world
+- Added 1 New Javelin as Arena Prize
