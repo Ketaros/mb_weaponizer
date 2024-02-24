@@ -24,7 +24,7 @@
 		<Pieces>
 			<Piece id="spear_blade_13"			Type="Blade"/>
 			<Piece id="spear_guard_19"			Type="Guard"/>
-			<Piece id="axe_craft_21_handle"		Type="Handle"/>
+			<Piece id="javelin_03_handle"		Type="Handle"/>
 			<Piece id="spear_pommel_12"			Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 116 Weight: 0.66 -->
@@ -33,7 +33,7 @@
 		<Pieces>
 			<Piece id="spear_blade_5" 			Type="Blade"/>
 			<Piece id="spear_guard_13"			Type="Guard"/>
-			<Piece id="mace_handle_15"			Type="Handle"/>
+			<Piece id="javelin_08_handle"		Type="Handle"/>
 			<Piece id="aserai_pommel_8"			Type="Pommel"/>
 		</Pieces>
 		<!-- Length: 116 Weight: 1.66 -->
@@ -188,5 +188,15 @@
 		<!-- Length: 158 Weight: 2.21 -->
 	</CraftedItem>
 	<!-- #endregion -->
+
+	<CraftedItem id="calradian_dawnblade_2hsword" name="Calradian Dawnblade" crafting_template="TwoHandedSword">
+		<Pieces>
+			<Piece id="empire_blade_7"			Type="Blade"/>
+			<Piece id="sturgian_noble_guard_2"	Type="Guard"	scale_factor="110"/>
+			<Piece id="battania_grip_2"			Type="Handle"/>
+			<Piece id="sturgian_pommel_12"		Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 110 Weight: 1.7 -->
+	</CraftedItem>
 
 </Items>

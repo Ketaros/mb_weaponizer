@@ -1,37 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
 
-<!-- ############### DAGGERS #################### -->
+<!-- 	############################################################
+		###################### JAVELINS ############################
+		############################################################ -->
 
-<!-- ############### JAVELINS #################### -->
-	<CraftedItem id="farmers_javelin" name="Farmer's Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
-	<Pieces>
-		<Piece id="spear_blade_29"				Type="Blade"/>
-		<Piece id="default_polearm_guard"		Type="Guard"/>
-		<Piece id="spear_handle_12"				Type="Handle"/>
-		<Piece id="default_polearm_pommel"		Type="Pommel"/>
-	</Pieces>
+	<!-- #region Tier 1 -->
+	<CraftedItem id="farmers_javelin_t1" name="Farmer's Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_29"				Type="Blade"/>
+			<Piece id="default_polearm_guard"		Type="Guard"/>
+			<Piece id="spear_handle_12"				Type="Handle"/>
+			<Piece id="default_polearm_pommel"		Type="Pommel"/>
+		</Pieces>
 		<!-- Length: 78 Weight: 1.52 -->
 	</CraftedItem>
-	<CraftedItem id="trident_harpoon" name="Trident Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
-		<Pieces>
-			<Piece id="spear_blade_32" 	Type="Blade"/>
-			<Piece id="spear_guard_7"	Type="Guard"/>
-			<Piece id="spear_handle_10"	Type="Handle"	scale_factor="90"/>
-			<Piece id="spear_pommel_5"	Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 79 Weight: 1.35 -->
-	</CraftedItem>
-	<CraftedItem id="levies_spear"	name="Levie's Spear"	crafting_template="Javelin" modifier_group="spear_dart_throwing">
-		<Pieces>
-			<Piece id="spear_blade_30"			Type="Blade"/>
-			<Piece id="default_polearm_guard"	Type="Guard"/>
-			<Piece id="spear_handle_9"			Type="Handle"/>
-			<Piece id="default_polearm_pommel"	Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 84 Weight: 0.97 -->
-	</CraftedItem>
-	<CraftedItem id="tribal_javelin" name="Tribal Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<CraftedItem id="tribal_javelin_t1" name="Tribal Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_9" 			Type="Blade"/>
 			<Piece id="default_polearm_guard"	Type="Guard"/>
@@ -40,16 +24,28 @@
 		</Pieces>
 		<!-- Length: 68 Weight: 1 -->
 	</CraftedItem>
-	<CraftedItem id="war_javelin" name="War Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<!-- #endregion -->
+	
+	<!-- #region Tier 2 -->
+	<CraftedItem id="trident_harpoon_t2" name="Trident Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
-			<Piece id="spear_blade_14"			Type="Blade"/>
-			<Piece id="spear_guard_15"			Type="Guard"/>
-			<Piece id="spear_handle_10"			Type="Handle"/>
+			<Piece id="spear_blade_32" 	Type="Blade"/>
+			<Piece id="spear_guard_7"	Type="Guard"/>
+			<Piece id="spear_handle_10"	Type="Handle"	scale_factor="90"/>
+			<Piece id="spear_pommel_5"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 79 Weight: 1.35 -->
+	</CraftedItem>
+	<CraftedItem id="levies_spear_t2"	name="Levie's Spear"	crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_30"			Type="Blade"/>
+			<Piece id="default_polearm_guard"	Type="Guard"/>
+			<Piece id="spear_handle_9"			Type="Handle"/>
 			<Piece id="default_polearm_pommel"	Type="Pommel"/>
 		</Pieces>
-		<!-- Length: 92 Weight: 1.08 -->
+		<!-- Length: 84 Weight: 0.97 -->
 	</CraftedItem>
-	<CraftedItem id="whale_harpoon" name="Whale Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<CraftedItem id="whale_harpoon_t2" name="Whale Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_38"			Type="Blade"/>
 			<Piece id="spear_guard_15"			Type="Guard"/>
@@ -58,16 +54,7 @@
 		</Pieces>
 		<!-- Length: 72 Weight: 0.73 -->
 	</CraftedItem>
-	<CraftedItem id="thamaskene_javelin" name="Thamaskene Steel Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
-		<Pieces>
-			<Piece id="spear_blade_41" 			Type="Blade"	scale_factor="94"/>
-			<Piece id="default_polearm_guard" 	Type="Guard"/>
-			<Piece id="spear_handle_10"			Type="Handle"	scale_factor="98"/>
-			<Piece id="default_polearm_pommel"	Type="Pommel"/>
-		</Pieces>
-		<!-- Length: 92 Weight: 0.95 -->
-	</CraftedItem>
-	<CraftedItem id="forked_harpoon" name="Forked Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+	<CraftedItem id="forked_harpoon_t2" name="Forked Harpoon" crafting_template="Javelin" modifier_group="spear_dart_throwing">
 		<Pieces>
 			<Piece id="spear_blade_26"			Type="Blade"/>
 			<Piece id="spear_guard_15"			Type="Guard"/>
@@ -76,9 +63,71 @@
 		</Pieces>
 		<!-- Length: 77 Weight: 1.32 -->
 	</CraftedItem>
-<!-- ############### 1-HANDED SWORDS #################### -->
+	<CraftedItem id="hasta_t2" name="Hasta" crafting_template="Javelin" culture="Culture.empire" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_2"		 	Type="Blade"/>
+			<Piece id="default_polearm_guard" 	Type="Guard"/>
+			<Piece id="javelin_01_handle"		Type="Handle"/>
+			<Piece id="aserai_pommel_1"			Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 105 Weight: 1.06 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	
+	<!-- #region Tier 3 -->
+	<CraftedItem id="war_javelin_t3" name="War Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_14"			Type="Blade"/>
+			<Piece id="spear_guard_15"			Type="Guard"/>
+			<Piece id="spear_handle_10"			Type="Handle"/>
+			<Piece id="default_polearm_pommel"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 92 Weight: 1.08 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	
+	<!-- #region Tier 4 -->
+	<CraftedItem id="thamaskene_javelin_t4" name="Thamaskene Steel Javelin" crafting_template="Javelin" modifier_group="spear_dart_throwing">
+		<Pieces>
+			<Piece id="spear_blade_41" 			Type="Blade"	scale_factor="94"/>
+			<Piece id="default_polearm_guard" 	Type="Guard"/>
+			<Piece id="spear_handle_10"			Type="Handle"	scale_factor="98"/>
+			<Piece id="default_polearm_pommel"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 92 Weight: 0.95 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 5 -->
+	<!-- #endregion -->
+	<!-- #region Tier 6 -->
+	<!-- #endregion -->
 
-	<CraftedItem id="ruffian_sword_t1" name="{=KETw1h01}Ruffian Sword" crafting_template="OneHandedSword" modifier_group="sword">
+<!-- 	############################################################
+		################# ONE-HANDED SWORDS ########################
+		############################################################ -->
+
+	<!-- #region Tier 1 -->
+	<CraftedItem id="shortsword_t1" name="Light Shortsword" crafting_template="OneHandedSword">
+		<Pieces>
+			<Piece id="battania_blade_2" Type="Blade"/>
+			<Piece id="khuzait_guard_1"	 Type="Guard"/>
+			<Piece id="aserai_grip_5"	 Type="Handle"/>
+			<Piece id="cleaver_pommel_4" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 66 Weight: 0.92 -->
+	</CraftedItem>
+	<CraftedItem id="gladius_t1" name="Gladius" crafting_template="OneHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="battania_blade_10" 	Type="Blade"/>
+			<Piece id="cleaver_guard_1"		Type="Guard"/>
+			<Piece id="aserai_grip_1"		Type="Handle"/>
+			<Piece id="khuzait_pommel_1"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 76 Weight: 0.86 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 2 -->
+	<CraftedItem id="ruffian_sword_t2" name="{=KETw1h01}Ruffian Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="khuzait_noble_blade_7" 	Type="Blade" 	scale_factor="100" />
 			<Piece id="khuzait_guard_6" 		Type="Guard" 	scale_factor="100" />
@@ -86,7 +135,7 @@
 			<Piece id="wood_pommel_1" 			Type="Pommel" 	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem id="scoundrel_sword_t1"  name="{=KETw1h02}Scoundrel Sword" crafting_template="OneHandedSword" modifier_group="sword">
+	<CraftedItem id="scoundrel_sword_t2"  name="{=KETw1h02}Scoundrel Sword" crafting_template="OneHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="battania_blade_3_crude_iron" 	Type="Blade" 	scale_factor="100" />
 			<Piece id="sturgian_guard_6" 				Type="Guard" 	scale_factor="100" />
@@ -94,18 +143,31 @@
 			<Piece id="khuzait_pommel_3" 				Type="Pommel" 	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 3 -->
+	<!-- #endregion -->
+	<!-- #region Tier 4 -->
+	<!-- #endregion -->
+	<!-- #region Tier 5 -->
+	<!-- #endregion -->
+	<!-- #region Tier 6 -->
+	<!-- #endregion -->
+	
+<!-- 	############################################################
+		################# TWO-HANDED SWORDS ########################
+		############################################################ -->
 
-<!-- ############### 2-HANDED SWORDS / GENERIC #################### -->
-
-	<CraftedItem id="empire_2hspatha_ket" name="{KETw2h01}Two-Handed Spatha" crafting_template="TwoHandedSword"	modifier_group="sword">
+	<!-- #region Tier 4 -->
+	<CraftedItem id="bandit_2hsword_t4" name="Bandit Greatsword" crafting_template="TwoHandedSword" modifier_group="sword">
 		<Pieces>
-			<Piece id="empire_blade_2" 		Type="Blade" 	scale_factor="110" />
-			<Piece id="empire_guard_2" 		Type="Guard"	scale_factor="100" />
-			<Piece id="empire_grip_7"  		Type="Handle"  	scale_factor="100" />
-			<Piece id="cleaver_pommel_1" 	Type="Pommel" 	scale_factor="100" />
+			<Piece id="aserai_blade_9" 			Type="Blade"	scale_factor="110"/>
+			<Piece id="aserai_guard_1" 			Type="Guard"/>
+			<Piece id="sturgian_grip_32"		Type="Handle"/>
+			<Piece id="cleaver_pommel_4" 		Type="Pommel" 	scale_factor="100" />
 		</Pieces>
+		<!-- Length: 120 Weight: 1.94 -->
 	</CraftedItem>
-	<CraftedItem id="empire_2hflatspatha_ket" name="{KETw2h06}Two-Handed Flat Spatha" crafting_template="TwoHandedSword" modifier_group="sword">
+	<CraftedItem id="empire_2hflatspatha_t4" name="{KETw2h06}Two-Handed Flat Spatha" crafting_template="TwoHandedSword" modifier_group="sword">
 		<Pieces>
 			<Piece id="empire_blade_4" 		Type="Blade" 	scale_factor="110" />
 			<Piece id="empire_guard_4" 		Type="Guard"	scale_factor="100" />
@@ -113,18 +175,24 @@
 			<Piece id="cleaver_pommel_4" 	Type="Pommel" 	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 5 -->
+	<CraftedItem id="empire_2hspatha_t5" name="{KETw2h01}Two-Handed Spatha" crafting_template="TwoHandedSword" modifier_group="sword">
+		<Pieces>
+			<Piece id="empire_blade_2" 		Type="Blade" 	scale_factor="110" />
+			<Piece id="empire_guard_2" 		Type="Guard"	scale_factor="100" />
+			<Piece id="empire_grip_7"  		Type="Handle"  	scale_factor="100" />
+			<Piece id="cleaver_pommel_1" 	Type="Pommel" 	scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 6 -->
+	<!-- #endregion -->
 
 <!-- ############### 2-HANDED SWORDS / CULTURAL #################### -->
 
-	<CraftedItem id="sturgian_2hsword_ket" name="{KETw2h02}Barbarian Two-Handed Sword" 	crafting_template="TwoHandedSword" culture="Culture.sturgian" 	modifier_group="sword">
-		<Pieces>
-			<Piece id="sturgian_blade_1" 	Type="Blade" 	scale_factor="110" />
-			<Piece id="sturgian_guard_1" 	Type="Guard" 	scale_factor="100" />
-			<Piece id="sturgian_grip_32" 	Type="Handle" 	scale_factor="100" />
-			<Piece id="sturgian_pommel_3" 	Type="Pommel" 	scale_factor="100" />
-		</Pieces>
-	</CraftedItem>	
-	<CraftedItem id="aserai_2hkaskara_ket" name="{KETw2h03}AseraI Two-Handed Kaskara" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
+	<!-- #region Tier 4 -->
+	<CraftedItem id="aserai_2hkaskara_t4" name="{KETw2h03}AseraI Two-Handed Kaskara" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="aserai_blade_9"		Type="Blade"	scale_factor="100" />
 			<Piece	id="aserai_guard_1"		Type="Guard"	scale_factor="100" />
@@ -132,23 +200,15 @@
 			<Piece	id="aserai_pommel_2"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="aserai_2hflyssa_ket" name="{KETw2h04}Aserai Two-Handed Flyssa" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
+	<CraftedItem id="sturgian_2hsword_t4" name="{KETw2h02}Barbarian Two-Handed Sword" 	crafting_template="TwoHandedSword" culture="Culture.sturgian" 	modifier_group="sword">
 		<Pieces>
-			<Piece	id="aserai_blade_4"		Type="Blade"	scale_factor="100" />
-			<Piece	id="aserai_guard_7"		Type="Guard"	scale_factor="100" />
-			<Piece	id="aserai_grip_11"		Type="Handle"	scale_factor="100" />
-			<Piece	id="aserai_pommel_1"	Type="Pommel"	scale_factor="100" />
+			<Piece id="sturgian_blade_1" 	Type="Blade" 	scale_factor="110" />
+			<Piece id="sturgian_guard_1" 	Type="Guard" 	scale_factor="100" />
+			<Piece id="sturgian_grip_32" 	Type="Handle" 	scale_factor="100" />
+			<Piece id="sturgian_pommel_3" 	Type="Pommel" 	scale_factor="100" />
 		</Pieces>
-	</CraftedItem>
-	<CraftedItem	id="aserai_2hscimitar_ket" name="{KETw2h05}Aserai Two-Handed Scimitar" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
-		<Pieces>
-			<Piece	id="aserai_blade_3"		Type="Blade"	scale_factor="110" />
-			<Piece	id="aserai_guard_5"		Type="Guard"	scale_factor="100" />
-			<Piece	id="aserai_grip_10"		Type="Handle"	scale_factor="100" />
-			<Piece	id="aserai_pommel_6"	Type="Pommel"	scale_factor="100" />
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem	id="khuzait_2hironsaber_ket" name="{KETw2h07}Two-Handed Iron Saber" crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
+	</CraftedItem>	
+	<CraftedItem	id="khuzait_2hironsaber_t4" name="{KETw2h07}Two-Handed Iron Saber" crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="khuzait_blade_9"	Type="Blade"	scale_factor="110" />
 			<Piece	id="khuzait_guard_5"	Type="Guard"	scale_factor="100" />
@@ -156,15 +216,7 @@
 			<Piece	id="khuzait_pommel_3"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="vlandian_2hfulleredsword_ket" name="{KETw2h08}Two-Handed Sailor Sword" crafting_template="TwoHandedSword"	culture="Culture.vlandia"	modifier_group="sword">
-		<Pieces>
-			<Piece	id="vlandian_blade_1"	Type="Blade"	scale_factor="110" />
-			<Piece	id="vlandian_guard_2"	Type="Guard"	scale_factor="100" />
-			<Piece	id="vlandian_grip_13"	Type="Handle"	scale_factor="100" />
-			<Piece	id="vlandian_pommel_5"	Type="Pommel"	scale_factor="100" />
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem	id="empire_2hwarsword_ket" name="{KETw2h09}Two-Handed Warsword" crafting_template="TwoHandedSword"	culture="Culture.empire"	modifier_group="sword">
+	<CraftedItem	id="empire_2hwarsword_t4" name="{KETw2h09}Two-Handed Warsword" crafting_template="TwoHandedSword"	culture="Culture.empire"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="empire_blade_3"		Type="Blade"	scale_factor="110" />
 			<Piece	id="empire_guard_3"		Type="Guard"	scale_factor="100" />
@@ -172,15 +224,7 @@
 			<Piece	id="empire_pommel_1"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="battania_sentinelbroadsword_ket" name="{KETw2h10}Sentinel Broadsword" crafting_template="TwoHandedSword"	culture="Culture.battania"	modifier_group="sword">
-		<Pieces>
-			<Piece	id="battania_blade_3_iron"	Type="Blade"	scale_factor="110" />
-			<Piece	id="battania_guard_7"		Type="Guard"	scale_factor="100" />
-			<Piece	id="battania_grip_6"		Type="Handle"	scale_factor="100" />
-			<Piece	id="battania_pommel_6"		Type="Pommel"	scale_factor="100" />
-		</Pieces>
-	</CraftedItem>
-	<CraftedItem	id="vlandian_2hfalchion_ket" name="{KETw2h11}Vlandian Two-Handed Falchion" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+	<CraftedItem	id="vlandian_2hfalchion_t4" name="{KETw2h11}Vlandian Heavy Falchion" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece 	id="vlandian_blade_9"		Type="Blade"	scale_factor="110" />
 			<Piece	id="vlandian_guard_7"		Type="Guard"	scale_factor="100" />
@@ -188,7 +232,7 @@
 			<Piece	id="battania_pommel_2"		Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem id="vlandian_2hnarrowblade_ket" name="{KETw2h12}Vlandian Two-Handed Narrow Sword" crafting_template="TwoHandedSword" culture="Culture.vlandia"	modifier_group="sword">
+	<CraftedItem id="vlandian_2hnarrowblade_t4" name="{KETw2h12}Vlandian Narrow Greatsword" crafting_template="TwoHandedSword" culture="Culture.vlandia"	modifier_group="sword">
 		<Pieces>
 			<Piece 	id="vlandian_blade_6" 	Type="Blade" 	scale_factor="110" />
 			<Piece 	id="vlandian_guard_1"	Type="Guard"	scale_factor="100" />
@@ -196,7 +240,7 @@
 			<Piece	id="vlandian_pommel_1"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem id="vlandian_2hsword_ket" name="{KETw2h13}Vlandian Two-Handed Sword" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
+	<CraftedItem id="vlandian_2hsword_t4" name="{KETw2h13}Vlandian Greatsword" crafting_template="TwoHandedSword" culture="Culture.vlandia" modifier_group="sword">
 		<Pieces>
 			<Piece	id="vlandian_blade_14"	Type="Blade"	scale_factor="110" />
 			<Piece	id="vlandian_guard_6"	Type="Guard"	scale_factor="100" />
@@ -204,7 +248,7 @@
 			<Piece	id="vlandian_pommel_10"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="empire_2htournament_ket" name="{KETw1h14}Tournament Two-Handed Sword"	crafting_template="TwoHandedSword"	culture="Culture.empire"	modifier_group="sword">
+	<CraftedItem	id="empire_2htournament_t4" name="{KETw1h14}Tournament Two-Handed Sword"	crafting_template="TwoHandedSword"	culture="Culture.empire"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="empire_blade_3_blunt"	Type="Blade"	scale_factor="110" />
 			<Piece	id="empire_guard_6"			Type="Guard"	scale_factor="100" />
@@ -212,7 +256,7 @@
 			<Piece	id="empire_pommel_2"		Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="khuzait_2hsaber_ket" name="{KETw2h15}Khuzait Two-Handed Saber"	crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
+	<CraftedItem	id="khuzait_2hsaber_t4" name="{KETw2h15}Khuzait Two-Handed Saber"	crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="khuzait_blade_6"	Type="Blade"	scale_factor="110" />
 			<Piece	id="khuzait_guard_1"	Type="Guard"	scale_factor="100" />
@@ -220,7 +264,7 @@
 			<Piece	id="khuzait_pommel_1"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
-	<CraftedItem	id="khuzait_2hheavysaber_ket" name="{KETw2h16}Khuzait Two-Handed Heavy Saber"	crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
+	<CraftedItem	id="khuzait_2hheavysaber_t4" name="{KETw2h16}Khuzait Two-Handed Heavy Saber"	crafting_template="TwoHandedSword"	culture="Culture.khuzait"	modifier_group="sword">
 		<Pieces>
 			<Piece	id="khuzait_blade_7"	Type="Blade"	scale_factor="110" />
 			<Piece	id="khuzait_guard_2"	Type="Guard"	scale_factor="100" />
@@ -228,5 +272,157 @@
 			<Piece	id="khuzait_pommel_2"	Type="Pommel"	scale_factor="100" />
 		</Pieces>
 	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 5 -->
+	<CraftedItem	id="aserai_2hflyssa_t5" name="{KETw2h04}Aserai Two-Handed Flyssa" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
+		<Pieces>
+			<Piece	id="aserai_blade_4"		Type="Blade"	scale_factor="100" />
+			<Piece	id="aserai_guard_7"		Type="Guard"	scale_factor="100" />
+			<Piece	id="aserai_grip_11"		Type="Handle"	scale_factor="100" />
+			<Piece	id="aserai_pommel_1"	Type="Pommel"	scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem	id="aserai_2hscimitar_t5" name="{KETw2h05}Aserai Two-Handed Scimitar" crafting_template="TwoHandedSword"	culture="Culture.aserai"	modifier_group="sword">
+		<Pieces>
+			<Piece	id="aserai_blade_3"		Type="Blade"	scale_factor="110" />
+			<Piece	id="aserai_guard_5"		Type="Guard"	scale_factor="100" />
+			<Piece	id="aserai_grip_10"		Type="Handle"	scale_factor="100" />
+			<Piece	id="aserai_pommel_6"	Type="Pommel"	scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem	id="vlandian_2hfulleredsword_t5" name="{KETw2h08}Two-Handed Sailor Sword" crafting_template="TwoHandedSword"	culture="Culture.vlandia"	modifier_group="sword">
+		<Pieces>
+			<Piece	id="vlandian_blade_1"	Type="Blade"	scale_factor="110" />
+			<Piece	id="vlandian_guard_2"	Type="Guard"	scale_factor="100" />
+			<Piece	id="vlandian_grip_13"	Type="Handle"	scale_factor="100" />
+			<Piece	id="vlandian_pommel_5"	Type="Pommel"	scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<CraftedItem	id="battania_sentinelbroadsword_t5" name="{KETw2h10}Sentinel Claymore" crafting_template="TwoHandedSword"	culture="Culture.battania"	modifier_group="sword">
+		<Pieces>
+			<Piece	id="battania_blade_3_iron"	Type="Blade"	scale_factor="110" />
+			<Piece	id="battania_guard_7"		Type="Guard"	scale_factor="100" />
+			<Piece	id="battania_grip_6"		Type="Handle"	scale_factor="100" />
+			<Piece	id="battania_pommel_6"		Type="Pommel"	scale_factor="100" />
+		</Pieces>
+	</CraftedItem>
+	<!-- #endregion -->
 
+<!-- ############### 2-HANDED AXES / GENERIC #################### -->
+	
+	<!-- #region Tier 5 -->
+	<CraftedItem id="vlandian_executioner_t5" name="Vlandian Executioner" crafting_template="TwoHandedAxe" modifier_group="axe">
+		<Pieces>
+			<Piece id="axe_craft_34_head"	 	Type="Blade"	 scale_factor="110"/>
+			<Piece id="axe_craft_9_handle"	 	Type="Handle"/>
+			<Piece id="default_polearm_pommel"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 120 Weight: 1.57 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	
+	<!-- #region Tier 6 -->
+	<CraftedItem id="battania_warlord_axe_t6" name="Battanian Warlord Axe" crafting_template="TwoHandedAxe" modifier_group="axe">
+		<Pieces>
+			<Piece id="axe_craft_38_head" 	Type="Blade"/>
+			<Piece id="axe_craft_4_handle"	Type="Handle"/>
+			<Piece id="spear_pommel_12"		Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 137 Weight: 1.58 -->
+	</CraftedItem>
+	<!-- #endregion -->
+
+	<CraftedItem id="sturgian_frostreaver_t6" name="Sturgian Frostreaver " crafting_template="TwoHandedAxe" modifier_group="axe">
+		<Pieces>
+			<Piece id="axe_craft_22_head" 	Type="Blade"/>
+			<Piece id="axe_craft_1_handle"	Type="Handle"/>
+			<Piece id="khuzait_pommel_1"	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 122 Weight: 1.71 -->
+	</CraftedItem>
+
+<!-- ############### 2-HANDED MACES / NEUTRAL #################### -->
+
+	<!-- #region Tier 3 -->
+	<CraftedItem id="crude_2h_mace_t3" name="Crude Spiked Two-Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_35" Type="Blade"/>
+			<Piece id="spear_handle_1" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 112 Weight: 0.8 -->
+	</CraftedItem>
+	<CraftedItem id="crude_2h_mace_t3" name="Spiked Two-Handed Club" crafting_template="TwoHandedMace" culture="Culture.neutral" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_36" Type="Blade"/>
+			<Piece id="spear_handle_1" Type="Handle"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 124 Weight: 0.85 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 4 -->
+	<CraftedItem id="darshi_2h_mace_t4" name="Aserai Two-Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_34" Type="Blade" scale_factor="106"/>
+			<Piece id="mace_handle_18" Type="Handle" scale_factor="110"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 100 Weight: 1.45 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 5 -->
+	<CraftedItem id="darshi_2h_mace_t5" name="Aserai Noble Two-Handed Mace" crafting_template="TwoHandedMace" culture="Culture.aserai" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_38" Type="Blade" scale_factor="110"/>
+			<Piece id="axe_craft_1_handle" Type="Handle" scale_factor="90"/>
+			<Piece id="default_polearm_pommel" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 120 Weight: 2.13 -->
+	</CraftedItem>
+	<!-- #endregion -->
+
+<!-- ############### 1-HANDED MACES / NEUTRAL #################### -->
+
+	<!-- #region Tier 2 -->
+	<CraftedItem id="khuzait_mace_2_t2" name="Steppe Weighted Mace" crafting_template="Mace" culture="Culture.khuzait" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_14" 	Type="Blade" scale_factor="106"/>
+			<Piece id="mace_handle_3" 	Type="Handle"/>
+			<Piece id="empire_pommel_1" Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 65 Weight: 1.04 -->
+	</CraftedItem>
+	<!-- #endregion -->
+	<!-- #region Tier 3 -->
+	<CraftedItem id="battania_mace_3_t3" name="Highland Heavy Mace" crafting_template="Mace" culture="Culture.battania" modifier_group="mace">
+		<Pieces>
+			<Piece id="mace_head_9" 	Type="Blade"/>
+			<Piece id="mace_handle_15" 	Type="Handle"/>
+			<Piece id="spear_pommel_8" 	Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 70 Weight: 1.17 -->
+	</CraftedItem>
+	<!-- #endregion -->
+
+	<CraftedItem id="vlandian_knights_honor" name="Vlandian Knight's Honor" crafting_template="OneHandedSword" culture="Culture.vlandia" modifier_group="sword">
+		<Pieces>
+			<Piece id="vlandian_noble_blade_2"		 Type="Blade" scale_factor="110"/>
+			<Piece id="vlandian_noble_guard_2"		 Type="Guard"/>
+			<Piece id="sturgian_noble_grip_2"		 Type="Handle"/>
+			<Piece id="vlandian_noble_pommel_1"		 Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 91 Weight: 1.67 -->
+	</CraftedItem>
+
+	<CraftedItem id="empires_legacy_greatsword" name="Empire's Legacy Greatsword" crafting_template="TwoHandedSword" culture="Culture.empire" modifier_group="sword">
+		<Pieces>
+			<Piece id="empire_blade_7"		Type="Blade" scale_factor="110"/>
+			<Piece id="battania_guard_9"	Type="Guard" scale_factor="110"/>
+			<Piece id="aserai_grip_13"		Type="Handle"/>
+			<Piece id="empire_pommel_3"		Type="Pommel"/>
+		</Pieces>
+		<!-- Length: 122 Weight: 1.62 -->
+	</CraftedItem>
+	
 </Items>
